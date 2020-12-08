@@ -2,8 +2,8 @@ function executarQualquerCoisa(fn){
   fn();
 }
 
-function fn() {
-  console.log('callback function!');
-}
 
-executarQualquerCoisa();
+
+executarQualquerCoisa(function fn() {
+  console.log('callback function!');
+});
