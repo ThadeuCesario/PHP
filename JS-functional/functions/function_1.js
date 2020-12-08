@@ -15,4 +15,6 @@ const boaTarde = function(){
 
 boaTarde();
 
-function somar()
+function somar(a, b){
+  
+}
