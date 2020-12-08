@@ -21,4 +21,5 @@ const carrinho = [
   { nome: 'Tesoura', qtde: 1, preco: 19.20 },
 ];
 
-const nomeProdutos = carrinho.map()
+const nomeProdutos = carrinho.map(produto => produto.nome);
+console.log(nomeProdutos);
