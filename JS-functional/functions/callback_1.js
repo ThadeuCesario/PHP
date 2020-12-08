@@ -1,4 +1,4 @@
 function exec(){};
 
 exec(somarNoTerminal, 56, 38);
-exec(subtrairNoTerminal)
+exec(subtrairNoTerminal, 182, 27);
