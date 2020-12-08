@@ -30,4 +30,4 @@ console.log('Fim Async...');
 
 console.log('Inicio Sync...');
 const conteudo = fs.readFileSync(caminho);
-console.log('Fim Async...');
+console.log('Fim Sync...');
