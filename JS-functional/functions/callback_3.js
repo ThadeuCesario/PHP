@@ -10,4 +10,4 @@ const dobro = (n, i, a) => n * 2 + i + a.length;
 console.log(nums.map(dobro));
 
 const nomes = ['Ana', 'Bia', 'Gui', 'Lia', 'Rafa'];
-const primeiroLetra = name => name.char
+const primeiroLetra = name => name.charAt(0)
