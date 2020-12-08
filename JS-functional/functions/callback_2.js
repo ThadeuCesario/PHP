@@ -11,7 +11,7 @@
  * Nesse método, podemos passar 3 parametros:
  * 1 - O caminho do arquivo para ser lido
  * 2 - Opções de manipulação do arquivo
- * 3 - Os dados 
+ * 3 - Uma função callback
  */
 
 const fs = require('fs');
