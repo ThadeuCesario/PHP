@@ -7,7 +7,7 @@
  * um pouco, principalmente o sentido das barras.
  * O __dirname, captura o caminho atual do arquivo que ele está sendo referenciado.
  * 
- * Veja que estamos utilizando o readFile para realizarmos a leitura de
+ * Veja que estamos utilizando o readFile para realizarmos a leitura de nossos arquivos
  */
 
 const fs = require('fs');
