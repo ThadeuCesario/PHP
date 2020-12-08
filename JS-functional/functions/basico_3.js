@@ -5,7 +5,10 @@ felizNatal();
 const saudacao = (nome) => `Fala ${nome}!!`;
 console.log(saudacao('Thadeu')); 
 
-const somar = numeros => {
+/**
+ * Abaixo será realizado o REST, em que todos os parâmetros são pegos e armazenados em um array.
+ */
+const somar = (...numeros) => {
   let tota = 0;
   for (let i of numeros) {
     tota += i;
