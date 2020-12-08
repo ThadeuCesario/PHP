@@ -20,10 +20,6 @@ console.log(somar(1,2,3,5));
 console.log(somar(1,2,3,5,6,8,9,10));
 console.log(somar(1,2,3,5,8,8,8,8,8,8,9));
 
-const potencia = base =>{
-  return (exp) => {
-    return Math.pow(base, exp);
-  };
-}
+const potencia = base => exp => Math.pow(base, exp);
 
 console.log(potencia(2)(8));
