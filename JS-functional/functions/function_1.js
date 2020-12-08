@@ -19,4 +19,4 @@ function somar(a, b){
   return a + b;
 }
 const resultado = somar(5, 5);
-console.log(resultado);
+console.log("result:", resultado);
