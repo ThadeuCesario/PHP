@@ -12,3 +12,7 @@ console.log(nums.map(dobro));
 const nomes = ['Ana', 'Bia', 'Gui', 'Lia', 'Rafa'];
 const primeiraLetra = name => name.charAt(0);
 console.log(nomes.map(primeiraLetra));
+
+const carrinho = [
+  
+]
