@@ -5,7 +5,7 @@
  * 
  * O join() serve para concatenar caminhos, porque sabemos que para cada sistema operacional pode variar
  * um pouco, principalmente o sentido das barras.
- * O 
+ * O __dirname, ca
  */
 
 const fs = require('fs');
