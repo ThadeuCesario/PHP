@@ -7,3 +7,8 @@ function bomDia(){
 }
 
 bomDia();
+
+//Function Expression
+const boaTarde = function(){
+  
+}
