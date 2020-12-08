@@ -3,7 +3,7 @@
  * um arquivo.
  * Também utilizaremos o path, para captura o caminho de um arquivo.
  * 
- * O join() serve para concate
+ * O join() serve para concatenar caminhos 
  */
 
 const fs = require('fs');
