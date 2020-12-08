@@ -14,4 +14,4 @@ const path = require('path');
 const caminho = path.join(__dirname, 'dados.txt');
 
 const callback = (error, data) => console.log(data);
-fs.readFile(caminho, callback);
+fs.readFile(caminho, {}, callback);
