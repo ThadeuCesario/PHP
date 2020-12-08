@@ -1,10 +1,4 @@
-function bomDia(){
-  console.log('Bom dia!');
-}
 
-function boaTarde(){
-  console.log('Boa tarde!');
-}
 
 function executarQualquerCoisa(fn){
   console.log(typeof fn);
@@ -13,6 +7,14 @@ function executarQualquerCoisa(fn){
 
 const fn = () => {
   console.log('callback function!')
+}
+
+function bomDia(){
+  console.log('Bom dia!');
+}
+
+const boaTarde = function(){
+  console.log('Boa tarde!');
 }
 
 executarQualquerCoisa(fn);
