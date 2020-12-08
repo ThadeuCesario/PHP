@@ -5,3 +5,5 @@ console.log(a);
 function bomDia(){
   console.log('Bom dia!');
 }
+
+bomDia()
