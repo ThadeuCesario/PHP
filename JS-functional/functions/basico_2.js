@@ -18,3 +18,4 @@ const boaTarde = function(){
 executarQualquerCoisa(fn);
 executarQualquerCoisa(bomDia);
 executarQualquerCoisa(boaTarde);
+executarQualquerCoisa(3);
