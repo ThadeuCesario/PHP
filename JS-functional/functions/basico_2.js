@@ -16,3 +16,5 @@ const boaTarde = function(){
 }
 
 executarQualquerCoisa(fn);
+executarQualquerCoisa(bomDia);
+executarQualquerCoisa(boaTarde);
