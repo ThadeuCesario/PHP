@@ -6,5 +6,8 @@ Modelo ou padrão a seguir que podemos transformar um problema do mundo real em 
 <br/><br/>
 O Javascript é uma linguagem de <strong>Multiparadigma</strong>. <br/><br/>
 Portando em javascript podemos escrever código: 
+<ul>
+  <li>Procedural</li>
+</ul>
 </p>
 <br/><br/>
