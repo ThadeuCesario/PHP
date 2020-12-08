@@ -2,7 +2,8 @@ const nums = [1, 2, 3, 4, 5];
 
 /**
  * 
- * @param {*} n 
+ * @param {
+ * } n 
  * @param {*} i 
  * @param {*} a 
  */
