@@ -5,4 +5,5 @@ const subtrairNoTerminal = (a, b) => a - b;
 exec(somarNoTerminal, 56, 38);
 exec(subtrairNoTerminal, 182, 27);
 
+const fn = 
 setInterval(fn, 1000)
