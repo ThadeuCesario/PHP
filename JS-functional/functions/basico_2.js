@@ -30,5 +30,5 @@ function potencia(base){
   };
 }
 
-const bits8 = potencia(2, 8);
+const bits8 = potencia(2, 8)();
 console.log(bits8);
