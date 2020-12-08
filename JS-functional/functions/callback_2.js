@@ -23,5 +23,6 @@ const exibirConteudo = (error, data) => {
   return console.log(data.toString());
 };
 
+console.log()
 fs.readFile(caminho, {}, exibirConteudo);
 fs.readFile(caminho, (_, conteudo) => console.log(conteudo.toString()));
