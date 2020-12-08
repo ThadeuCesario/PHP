@@ -24,4 +24,4 @@ const exibirConteudo = (error, data) => {
 };
 
 fs.readFile(caminho, {}, exibirConteudo);
-fs.readFile(caminho, (_, conteudo) => console.log())
+fs.readFile(caminho, (_, conteudo) => console.log(conteudo.toJSON()))
