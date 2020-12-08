@@ -14,7 +14,7 @@ const primeiraLetra = name => name.charAt(0);
 console.log(nomes.map(primeiraLetra));
 
 const carrinho = [
-  {},
+  { nome: 'Caneta',  },
   {},
   {},
   {},
