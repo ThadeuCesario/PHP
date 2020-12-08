@@ -16,6 +16,7 @@ console.log(somar(3)(4)(5));
 // calcular(3)(7)(fn)
 
 function calcular(a) {
+  console.log("a", a);
   return function(b){
     return function(fn) {
       if(typeof fn === 'function') return console.log(fn(a, b));
