@@ -23,3 +23,12 @@ console.log(somar(1,2,3,5,8,8,8,8,8,8,9));
 const potencia = base => exp => Math.pow(base, exp);
 
 console.log(potencia(2)(8));
+
+/**
+ * this
+ * 
+ * 
+ * 
+ */
+const numeros = [1, 2, 3];
+numeros.log();
