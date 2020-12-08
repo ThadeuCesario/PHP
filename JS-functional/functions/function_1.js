@@ -16,7 +16,7 @@ const boaTarde = function(){
 boaTarde();
 
 // Valor padrão no b
-function somar(a, b = 0){
+function somar(a = 0, b = 0){
   return a + b;
 }
 
