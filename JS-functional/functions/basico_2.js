@@ -26,7 +26,7 @@ executarQualquerCoisa(3);
 // Retornando uma função a partir de uma outra função.
 function potencia(base, exp){
   return function(){
-
+    return Math.pow(base, exp);
   };
 }
 
