@@ -17,4 +17,4 @@ const exibirConteudo = (error, data) => {
   return data;
 };
 
-fs.readFile(caminho, {}, callback);
+fs.readFile(caminho, {}, exibirConteudo);
