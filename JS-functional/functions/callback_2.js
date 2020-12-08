@@ -10,4 +10,4 @@
 const fs = require('fs');
 const path = require('path');
 
-const caminho = path.join()
+const caminho = path.join(__)
