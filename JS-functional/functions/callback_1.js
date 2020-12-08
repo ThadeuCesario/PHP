@@ -1,5 +1,5 @@
 function exec(fn, a, b){
-  return fn(a, b)
+  return console.log(fn(a, b);
 };
 
 
