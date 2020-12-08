@@ -3,6 +3,7 @@ function executarQualquerCoisa(fn){
   return console.log(fn);
 }
 
+//Arrow function
 const fn = () => {
   console.log('callback function!')
 }
