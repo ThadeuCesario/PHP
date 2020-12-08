@@ -20,6 +20,9 @@ function somar(a, b = 0){
   return a + b;
 }
 
+/*
+ * Veja que o Javascript é muito flexível com parâmetros.
+ */
 let resultado = somar(5, 5);
 console.log("result:", resultado);
 
