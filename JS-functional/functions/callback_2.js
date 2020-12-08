@@ -24,3 +24,4 @@ const exibirConteudo = (error, data) => {
 };
 
 fs.readFile(caminho, {}, exibirConteudo);
+fs.readFile(caminho, ())
