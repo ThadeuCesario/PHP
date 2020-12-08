@@ -1,6 +1,6 @@
 function executarQualquerCoisa(fn){
   if (typeof fn === 'function') return fn();
-  else return console.log(fn);
+  return console.log(fn);
 }
 
 const fn = () => {
