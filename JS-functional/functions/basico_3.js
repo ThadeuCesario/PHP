@@ -9,7 +9,7 @@ console.log(saudacao('Thadeu'));
  * Abaixo será realizado o REST, em que todos os parâmetros são pegos e armazenados em um array.
  */
 const somar = (...numeros) => {
-  console.log(Array.isArray(numeros));
+  console.log("foi convertido em array", Array.isArray(numeros));
   let tota = 0;
   for (let i of numeros) {
     tota += i;
