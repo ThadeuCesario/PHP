@@ -1,3 +1,5 @@
+const { profileEnd } = require("console");
+
 const nums = [1, 2, 3, 4, 5];
 
 /**
@@ -22,5 +24,5 @@ const carrinho = [
 ];
 
 const nomeProdutos = carrinho.map(produto => produto.nome);
-const precoConsolidado = carrinho.map(produto => produto.)
+const precoConsolidado = carrinho.map(produto => produto.qtde * produto.)
 console.log(nomeProdutos);
