@@ -12,3 +12,5 @@ bomDia();
 const boaTarde = function(){
   console.log('Boa tarde!');
 }
+
+boaTarde();
