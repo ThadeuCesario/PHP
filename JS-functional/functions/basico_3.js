@@ -2,5 +2,5 @@
 const felizNatal = () => console.log('Feliz Natal');
 felizNatal();
 
-const saudacao = (nome) => `Fala ${nome} !!`;
+const saudacao = (nome) => `Fala ${nome}!!`;
 console.log(saudacao('Thadeu')); 
