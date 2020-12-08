@@ -22,7 +22,6 @@ executarQualquerCoisa(bomDia);
 executarQualquerCoisa(boaTarde);
 executarQualquerCoisa(3);
 
-
 // Retornando uma função a partir de uma outra função.
 function potencia(base){
   return function(exp){
