@@ -1,3 +1,3 @@
 function exec(){};
 
-exec()
+exec(somarNoTerminal)
