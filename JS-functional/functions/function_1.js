@@ -19,5 +19,8 @@ boaTarde();
 function somar(a, b = 0){
   return a + b;
 }
-const resultado = somar(5, 5);
+
+let resultado = somar(5, 5);
 console.log("result:", resultado);
+
+resultado = somar(3, 5, 5, 6, 7, 8);
