@@ -10,5 +10,5 @@ bomDia();
 
 //Function Expression
 const boaTarde = function(){
-  
+  console.log('Boa tarde!');
 }
