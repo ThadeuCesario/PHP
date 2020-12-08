@@ -16,6 +16,7 @@ const boaTarde = function(){
   console.log('Boa tarde!');
 }
 
+// Passando uma função para outra função.
 executarQualquerCoisa(fn);
 executarQualquerCoisa(bomDia);
 executarQualquerCoisa(boaTarde);
