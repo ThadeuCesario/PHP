@@ -25,3 +25,5 @@ const potencia = base =>{
     return Math.pow(base, exp);
   };
 }
+
+console.log(potencia(2)(8));
