@@ -1,5 +1,5 @@
 function executarQualquerCoisa(fn){
-  fn();
+  console.log(typeof fn);
 }
 
 function fn() {
