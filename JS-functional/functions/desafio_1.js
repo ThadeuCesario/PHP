@@ -8,7 +8,7 @@ function somar(a){
   }
 }
 
-console.log(somar(1)(1)(1));
+console.log(somar(3)(4)(5));
 
 // fn -> 3 * 7
 // fn -> 3 + 7
