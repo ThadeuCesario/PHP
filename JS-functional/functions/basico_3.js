@@ -32,7 +32,7 @@ console.log(potencia(2)(8));
  */
 
 Array.prototype.log = function() {
-  console.log("Log exemplo");
+  console.log(this);
 }
 
 const numeros = [1, 2, 3];
