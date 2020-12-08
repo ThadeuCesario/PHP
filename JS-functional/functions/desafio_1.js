@@ -1,6 +1,6 @@
 // somar(3)(4)(5)
 
-function somar(a){
+function somarDesafio1(a){
   return function(b){
     return function(c){
       return a + b + c;
@@ -8,7 +8,7 @@ function somar(a){
   }
 }
 
-console.log(somar(3)(4)(5));
+console.log(somarDesafio1(3)(4)(5));
 
 // fn -> 3 * 7
 // fn -> 3 + 7
