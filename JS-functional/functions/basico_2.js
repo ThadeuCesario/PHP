@@ -2,6 +2,12 @@ function executarQualquerCoisa(fn){
   fn();
 }
 
-executarQualquerCoisa(function fn() {
+function fn() {
   console.log('callback function!');
-});
+}
+
+const fn = () => {
+  console.log('callback function!')
+}
+
+executarQualquerCoisa();
