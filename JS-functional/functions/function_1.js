@@ -18,4 +18,4 @@ boaTarde();
 function somar(a, b){
   return a + b;
 }
-const resultado
+const resultado = somar(5, 5);
