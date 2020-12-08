@@ -3,4 +3,4 @@ const felizNatal = () => console.log('Feliz Natal');
 felizNatal();
 
 const saudacao = (nome) => `Fala ${nome} !!`;
-saudacao('Thadeu'); 
+console.log(saudacao('Thadeu')); 
