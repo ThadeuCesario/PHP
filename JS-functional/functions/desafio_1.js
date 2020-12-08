@@ -30,3 +30,4 @@ const dividir = (a, b) => a / b;
 
 calcular(1)(1)(somar);
 calcular(2)(2)(multiplicar);
+calcular(5)(3)(subtrair)
