@@ -28,4 +28,4 @@ fs.readFile(caminho, {}, exibirConteudo);
 fs.readFile(caminho, (_, conteudo) => console.log(conteudo.toString()));
 console.log('Fim Async...');
 
-console.log('')
+console.log('Fim Async...')
