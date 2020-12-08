@@ -3,5 +3,5 @@ function executarQualquerCoisa(fn){
 }
 
 function fn() {
-  console.log('callback function');
+  console.log('callback function!');
 }
