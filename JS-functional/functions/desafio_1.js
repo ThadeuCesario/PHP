@@ -19,9 +19,6 @@ function calcular(a) {
   console.log("a", a);
   return function(b){
     console.log("b", b);
-    return function(fn) {
-      if(typeof fn === 'function') return console.log(fn(a, b));
-    }
   }
 }
 
