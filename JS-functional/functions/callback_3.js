@@ -5,9 +5,9 @@ const nums = [1, 2, 3, 4, 5];
  * Primeiro: Elemento atual
  * Segundo: índice atual
  * Terceiro: Array que estamos percorrendo
- */
+ */a', 'Bia', 'Gui', 'Lia', 'Rafa'];
+const primeiroLet
 const dobro = (n, i, a) => n * 2 + i + a.length;
 console.log(nums.map(dobro));
 
-const nomes = ['Aa', 'Bia', 'Gui', 'Lia', 'Rafa'];
-const primeiroLetra
+const nomes = ['Ara
