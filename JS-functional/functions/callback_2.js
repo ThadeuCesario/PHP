@@ -26,4 +26,5 @@ const exibirConteudo = (error, data) => {
 console.log('Inicio Async...');
 fs.readFile(caminho, {}, exibirConteudo);
 fs.readFile(caminho, (_, conteudo) => console.log(conteudo.toString()));
-console.log('Fim Async')
+console.log('Fim Async...');
+
