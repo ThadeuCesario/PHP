@@ -22,5 +22,5 @@ const carrinho = [
 ];
 
 const nomeProdutos = carrinho.map(produto => produto.nome);
-const precoConsolidado = carrinho.map(produto => )
+const precoConsolidado = carrinho.map(produto => produto)
 console.log(nomeProdutos);
