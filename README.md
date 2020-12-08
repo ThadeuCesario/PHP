@@ -13,5 +13,4 @@ Portando em javascript podemos escrever código:
 </ul>
 A programação funcional possui um cuidado maior com dados mutáveis do que a programação orientada a objeto ou procedural. Desta forma, trabalhamos mais com constantes e isso pode ocasionar um consumo maior de memória.
 </p>
-
 <br/><br/>
