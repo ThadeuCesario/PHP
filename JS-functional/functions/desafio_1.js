@@ -16,9 +16,10 @@ console.log(somar(3)(4)(5));
 // calcular(3)(7)(fn)
 
 function calcular(a) {
-  console.log("a", a);
   return function(b){
-    console.log("b", b);
+    return function(fn) {
+      if(typeof fn === 'function') return console.log(fn(a, b));
+    }
   }
 }
 
@@ -27,4 +28,4 @@ const multiplicar = (a, b) => a * b;
 const subtrair = (a, b) => a - b;
 const dividir = (a, b) => a / b;
 
-calcular(1)(1);
+calcular(1)(1)(somar);
