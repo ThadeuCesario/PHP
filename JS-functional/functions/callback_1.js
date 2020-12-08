@@ -3,7 +3,7 @@ function exec(fn, a, b){
 };
 
 
-const somarNoTerminal = (a, b) = a + b;
+const somarNoTerminal = (a, b) => a + b;
 const subtrairNoTerminal = (a, b) = a - b;
 
 exec(somarNoTerminal, 56, 38);
