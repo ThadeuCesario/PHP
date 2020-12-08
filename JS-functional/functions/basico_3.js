@@ -26,9 +26,6 @@ console.log(potencia(2)(8));
 
 /**
  * this
- * 
- * 
- * 
  */
 
 Array.prototype.log = function() {
