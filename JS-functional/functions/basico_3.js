@@ -1,2 +1,3 @@
 // Arrow function
-() => console.log('Boa noite');
+const felizNatal = () => console.log('Feliz Natal');
+felizNatal();
