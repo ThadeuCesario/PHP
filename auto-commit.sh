@@ -1,7 +1,7 @@
 
 while :
 do
-  sleep 5 &
+  sleep 2 &
   now=$(date +"%T")
   git add .
   git commit -m "$now - Javascript - Autocommit"
