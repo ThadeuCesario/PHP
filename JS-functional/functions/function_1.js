@@ -14,3 +14,5 @@ const boaTarde = function(){
 }
 
 boaTarde();
+
+function somar()
