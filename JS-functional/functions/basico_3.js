@@ -25,7 +25,7 @@ const potencia = base => exp => Math.pow(base, exp);
 console.log(potencia(2)(8));
 
 /**
- * this
+ * this, veja que dentro de prototype o this referencia o elemento que estamos manipulando.
  */
 
 Array.prototype.log = function() {
