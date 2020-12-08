@@ -13,4 +13,5 @@ const path = require('path');
 
 const caminho = path.join(__dirname, 'dados.txt');
 
+const callback = () => console.log()
 fs.readFile(caminho, )
