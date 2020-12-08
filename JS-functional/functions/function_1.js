@@ -2,4 +2,6 @@ let a = 4;
 console.log(a);
 
 //Function declaration
-function bomDia()
+function bomDia(){
+  console.log('Bom dia!');
+}
