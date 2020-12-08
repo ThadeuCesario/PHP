@@ -16,3 +16,5 @@ const somar = (...numeros) => {
   return tota;
 }
 console.log(somar(1,2,3,5));
+console.log(somar(1,2,3,5,6,8,9,10));
+console.log(somar(1,2,3,5,8,8,8,8,8,8,9));
