@@ -10,7 +10,8 @@
  * Veja que estamos utilizando o readFile para realizarmos a leitura de nosso arquivo txt.
  * Nesse método, podemos passar 3 parametros:
  * 1 - O caminho do arquivo para ser lido
- * 2 - 
+ * 2 - Opções de manipulação do arquivo
+ * 3 - 
  */
 
 const fs = require('fs');
