@@ -16,5 +16,5 @@ const boaTarde = function(){
 boaTarde();
 
 function somar(a, b){
-  
+  return a + b;
 }
