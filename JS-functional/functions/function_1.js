@@ -31,3 +31,6 @@ console.log("result:", resultado);
 
 resultado = somar(3);
 console.log("result:", resultado);
+
+resultado = somar();
+console.log("result:", resultado);
