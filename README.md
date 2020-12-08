@@ -11,5 +11,6 @@ Portando em javascript podemos escrever código:
   <li>Orientado a Objeto</li>
   <li>Funcional</li>
 </ul>
+A programação funcional possui um cuidado maior
 </p>
 <br/><br/>
