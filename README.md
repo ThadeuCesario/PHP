@@ -9,6 +9,7 @@ Portando em javascript podemos escrever código:
 <ul>
   <li>Procedural</li>
   <li>Orientado a Objeto</li>
+  <li>Funcional</li>
 </ul>
 </p>
 <br/><br/>
