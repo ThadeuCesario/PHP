@@ -14,7 +14,7 @@ const path = require('path');
 const caminho = path.join(__dirname, 'dados.txt');
 
 const exibirConteudo = (error, data) => {
-  return console.log(data);
+  return console.log(data.toString());
 };
 
 fs.readFile(caminho, {}, exibirConteudo);
