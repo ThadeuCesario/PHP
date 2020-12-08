@@ -8,6 +8,7 @@ O Javascript é uma linguagem de <strong>Multiparadigma</strong>. <br/><br/>
 Portando em javascript podemos escrever código: 
 <ul>
   <li>Procedural</li>
+  <li>Orientado a Objeto</li>
 </ul>
 </p>
 <br/><br/>
