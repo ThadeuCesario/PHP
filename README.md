@@ -19,3 +19,4 @@ A programação funcional possui um cuidado maior com dados mutáveis do que a p
 <p>
 Podemos tratar uma função como uma variável.
 </p>
+<br/><br/>
