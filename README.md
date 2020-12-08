@@ -11,6 +11,6 @@ Portando em javascript podemos escrever código:
   <li>Orientado a Objeto</li>
   <li>Funcional</li>
 </ul>
-A programação funcional possui um cuidado maior
+A programação funcional possui um cuidado maior com dados mutáveis do que a programação orientada a objeto ou procedural.
 </p>
 <br/><br/>
