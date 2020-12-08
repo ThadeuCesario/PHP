@@ -15,7 +15,8 @@ const boaTarde = function(){
 
 boaTarde();
 
-function somar(a, b){
+// Valor padrão no b
+function somar(a, b = 0){
   return a + b;
 }
 const resultado = somar(5, 5);
