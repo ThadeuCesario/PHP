@@ -1,1 +1,1 @@
-function executarQualquerCoisa()
+function executarQualquerCoisa(fn)
