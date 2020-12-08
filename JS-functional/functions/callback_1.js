@@ -1,4 +1,4 @@
-function exec(a, b, fn){
+function exec(fn, a, b){
 
 };
 
