@@ -25,3 +25,6 @@ console.log("result:", resultado);
 
 resultado = somar(3, 5, 5, 6, 7, 8);
 console.log("result:", resultado);
+
+resultado = somar(3);
+console.log("result:", resultado);
