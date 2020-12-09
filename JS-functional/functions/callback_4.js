@@ -13,5 +13,5 @@ const getNome = item => item.nome;
 /**
  * Veja que podemos encadear funções filter, map e reduce.
  */
-const produtosEmEstoque = carrinho.filter(qtdeMaiorQueZero).map(getNome);
+const produtosEmEstoque = carrinho.filter(qtdeMuitoGrande).map(getNome);
 console.log(produtosEmEstoque);
