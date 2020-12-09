@@ -27,5 +27,6 @@ Array.prototype.meuFilter = function(fn) {
   }
 }
 
+const maiorQu
 const arrayTeste = [5, 10, 15, 23, 89, 1256];
 arrayTeste.meuFilter();
