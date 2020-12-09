@@ -29,6 +29,7 @@ console.log(nomeProdutos);
 console.log(precoConsolidado);
 
 Array.prototype.meuMap = function(fn) {
+  const 
   for(let i = 0; i < this.length; i++){
     fn(this[i], i, this)
   }
