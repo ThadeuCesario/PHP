@@ -32,4 +32,4 @@ const carrinho = [
   {nome: 'Tesoura', qtde: 1, preco: 19.20},
 ];
 
-const getTotal = item => item.qtde 
+const getTotal = item => item.qtde * item.
