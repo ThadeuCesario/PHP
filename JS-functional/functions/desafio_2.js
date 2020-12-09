@@ -13,5 +13,5 @@ const carrinho = [
 const isFragile = product => product.fragil;
 const getTotal = product => product.preco * product.qtde;
 
-const media = carrinho.filter(isFragile).map(getTotal).reduce();
+const media = carrinho.filter(isFragile).map(getTotal).reduce((acc, el));
 console.log(media);
