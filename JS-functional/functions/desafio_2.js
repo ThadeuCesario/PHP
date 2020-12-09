@@ -19,5 +19,5 @@ const media = carrinho.filter(isFragile).map(getTotal).reduce((acc, el) => {
   return {
 
   }
-}, {});
+}, {qtde: 0, total: 0});
 console.log(media);
