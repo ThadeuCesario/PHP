@@ -33,7 +33,6 @@ Array.prototype.meuMap = function(fn) {
   for(let i = 0; i < this.length; i++){
     mapped.push(fn(this[i], i, this));
   }
-  
   return mapped;
 }
 
