@@ -35,3 +35,5 @@ Array.prototype.meuMap = function(fn) {
   }
   return mapped;
 }
+
+const 
