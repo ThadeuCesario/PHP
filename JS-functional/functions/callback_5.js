@@ -7,5 +7,8 @@
  * 
  * O reduce sempre trabalha com dois elementos. Sendo o primeiro o acumulador e o segundo o elemento atual do array que
  * estamos percorrendo. (acumulador, elemento);
- * Veja um exemplo abaixo
+ * Veja um exemplo abaixo:
+ * 
+ * Array teste:
+ * []
  */
