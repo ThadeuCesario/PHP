@@ -7,5 +7,5 @@ const carrinho = [
 ];
 
 const qtdeMaiorQueZero = item => item.qtde > 0;
-const produtos
+const produtosEmEstoque
 console.log(carrinho.filter(qtdeMaiorQueZero));
