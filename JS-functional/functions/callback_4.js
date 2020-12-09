@@ -20,4 +20,6 @@ console.log(produtosEmEstoque);
 
 //------------------------
 
-Array.prototype.meuFilter
+Array.prototype.meuFilter = function() {
+  
+}
