@@ -33,3 +33,4 @@ const carrinho = [
 ];
 
 const getTotal = item => item.qtde * item.preco;
+const totalGeral = carrinho.map(get)
