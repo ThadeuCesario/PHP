@@ -10,7 +10,7 @@ const qtdeMaiorQueZero = item => item.qtde > 0;
 const getNome = item => item.nome;
 
 /**
- * Veja que podemos encadear funç
+ * Veja que podemos encadear funções filter, map e reduce.
  */
 const produtosEmEstoque = carrinho.filter(qtdeMaiorQueZero).map(getNome);
 console.log(produtosEmEstoque);
