@@ -17,5 +17,5 @@ const allTotal = carrinho.map(getTotal);
 console.log(allTotal);
 
 // 3. Média dos totais
-const avarage = carrinho
+const avarage = carrinho.
 
