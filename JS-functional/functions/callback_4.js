@@ -8,3 +8,4 @@ const carrinho = [
 
 const qtdeMaiorQueZero = item => item.qtde > 0;
 const produtosEmEstoque = carrinho.filter(qtdeMaiorQueZero);
+console.log()
