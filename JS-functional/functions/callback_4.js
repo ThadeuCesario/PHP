@@ -22,7 +22,7 @@ console.log(produtosEmEstoque);
 
 Array.prototype.meuFilter = function() {
   for(let i = 0; i < this.length; i++) {
-    
+    console.log()
   }
 }
 
