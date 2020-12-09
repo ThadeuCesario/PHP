@@ -17,4 +17,6 @@
  * (5, 1) => 6
  * Assim, será feito sucessivamente até realizar a soma de todos os elementos do array.
  * Neste caso, o resultado final do reduce foi um número. Diferente do map ou filter, que é retornado um outro array.
+ * 
+ * Quando não colocamos um valor inicial, o primeiro elemento
  */
