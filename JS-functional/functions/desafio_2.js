@@ -7,6 +7,7 @@ const carrinho = [
 ];
 
 // 1. Retornar elementos que são frágeis.
+// 2. Retornar a quantidade e o preço de cada produto. -> Precisamos gerar o total de cada elemento
 const isFragile = product => product.fragil;
 
 
@@ -15,7 +16,7 @@ const getTotal = product => product.preco * product.qtde;
 const allTotal = carrinho.map(getTotal);
 console.log(allTotal);
 
-// 3. Média dos totais
+
 const avarage = allTotal.reduce((accumulator, element, index) => {
   if(index === allTotal.length - 1) {
     return (accumulator + element) / allTotal.length ;
