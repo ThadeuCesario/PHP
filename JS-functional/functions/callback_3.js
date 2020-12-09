@@ -31,7 +31,6 @@ console.log(precoConsolidado);
 Array.prototype.meuMap = function(fn) {
   const mapped = []
   for(let i = 0; i < this.length; i++){
-    mapped.push();
-    fn(this[i], i, this)
+    mapped.push(fn(this[i], i, this));
   }
 }
