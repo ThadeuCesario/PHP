@@ -7,7 +7,7 @@ const carrinho = [
 ];
 
 // 1. Retornar elementos que são frágeis.
-const isFragile = 
+const isFragile = product => product
 const allFragile = 
 
 
