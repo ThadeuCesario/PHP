@@ -11,12 +11,8 @@ const carrinho = [
 // 3. Média dos totais
 
 const isFragile = product => product.fragil;
-
-
-
 const getTotal = product => product.preco * product.qtde;
-const allTotal = carrinho.map(getTotal);
-console.log(allTotal);
+
 
 
 const avarage = allTotal.reduce((accumulator, element, index) => {
