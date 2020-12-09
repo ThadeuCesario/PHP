@@ -25,4 +25,4 @@ Array.prototype.meuFilter = function() {
 }
 
 const arrayTeste = [5, 10, 15, 23, 89, 1256];
-arrayTeste.
+arrayTeste.meuFilter();
