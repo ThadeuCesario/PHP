@@ -6,4 +6,4 @@ const carrinho = [
   {nome: 'Tesoura', qtde: 1, preco: 19.20},
 ];
 
-const qtdeMaiorQueZero = item => item > 0;
+const qtdeMaiorQueZero = item => item.qtde > 0;
