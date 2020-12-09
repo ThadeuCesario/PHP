@@ -7,7 +7,7 @@ const carrinho = [
 ];
 
 // 1. Retornar elementos que são frágeis.
-
+const all
 
 
 // 2. Retornar a quantidade e o preço de cada produto. -> Precisamos gerar o total de cada elemento
