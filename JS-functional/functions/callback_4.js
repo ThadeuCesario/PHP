@@ -25,7 +25,7 @@ Array.prototype.meuFilter = function(fn) {
   for(let i = 0; i < this.length; i++) {
     if(fn(this[i])){
       console.log(this[i]);
-      filtered.push(this[i]);
+      filtered.push(this[i], i, this);
     }
   }
   return filtered;
