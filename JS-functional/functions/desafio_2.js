@@ -18,7 +18,8 @@ const media = carrinho.filter(isFragile).map(getTotal).reduce((acc, el) => {
   const novoTotal = acc.total + el;
   return {
     qtde: novaQtde,
-    total: novoTotal
+    total: novoTotal,
+    media: novoTotal
   }
 }, {qtde: 0, total: 0, media: 0});
 console.log(media);
