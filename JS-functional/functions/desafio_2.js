@@ -8,8 +8,7 @@ const carrinho = [
 
 // 1. Retornar elementos que são frágeis.
 const isFragile = product => product.fragil;
-const allFragile = carrinho.filter(isFragile);
-console.log(allFragile);
+
 
 // 2. Retornar a quantidade e o preço de cada produto. -> Precisamos gerar o total de cada elemento
 const getTotal = product => product.preco * product.qtde;
