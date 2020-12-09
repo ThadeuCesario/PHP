@@ -19,3 +19,5 @@ const produtosEmEstoque = carrinho.filter(qtdeMaiorQueZero).map(getNome);
 console.log(produtosEmEstoque);
 
 //------------------------
+
+Array.prototype.meuFilter
