@@ -16,4 +16,5 @@
  * (3, 2) => 5
  * (5, 1) => 6
  * Assim, será feito sucessivamente até realizar a soma de todos os elementos do array.
+ * Neste caso, o resultado final do reduce foi um número. Diferente 
  */
