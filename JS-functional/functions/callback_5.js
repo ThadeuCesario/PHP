@@ -34,5 +34,5 @@ const carrinho = [
 
 const getTotal = item => item.qtde * item.preco;
 const totalGeral = carrinho.map(getTotal);
-console.log(totalGeral.reduce())
+console.log(totalGeral.reduce(ac))
 console.log(totalGeral);
