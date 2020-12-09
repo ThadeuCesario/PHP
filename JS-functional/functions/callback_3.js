@@ -28,4 +28,6 @@ const precoConsolidado = carrinho.map(produto => produto.qtde * produto.preco);
 console.log(nomeProdutos);
 console.log(precoConsolidado);
 
-Array.prototype.meuMap
+Array.prototype.meuMap = function() {
+  
+}
