@@ -10,7 +10,7 @@ const carrinho = [
 const isFragile = product => product.fragil;
 
 
-// 2. Retornar a quantidade e o preço de cada produto. -> Precisamos gerar o total de cada elemento
+
 const getTotal = product => product.preco * product.qtde;
 const allTotal = carrinho.map(getTotal);
 console.log(allTotal);
