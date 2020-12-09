@@ -21,4 +21,5 @@
  * Quando não colocamos um valor inicial, o primeiro elemento do array entrará como valor inicial e será feito a operação 
  * já com o segundo elemento elemento do array. 
  * Mas isso ocorre somente quando não temos um valor inicial passado para o reduce.
+ * 
  */
