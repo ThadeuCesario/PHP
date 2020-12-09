@@ -30,7 +30,7 @@ console.log(precoConsolidado);
 
 Array.prototype.meuMap = function(fn) {
   for(let i = 0; i < this.length; i++){
-    fn(this[i])
+    fn(this[i], i, this)
   }
 
   for(let el of this) {
