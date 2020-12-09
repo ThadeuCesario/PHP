@@ -23,8 +23,7 @@ console.log(produtosEmEstoque);
 Array.prototype.meuFilter = function(fn) {
   const filtered = [];
   for(let i = 0; i < this.length; i++) {
-    if(fn(this[i])){
-      filtered.push(this[i]);
+    if(fn(this[i])) filtered.push(this[i]);
   }
   return filtered;
 }
