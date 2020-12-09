@@ -13,7 +13,6 @@ const carrinho = [
 const isFragile = product => product.fragil;
 const getTotal = product => product.preco * product.qtde;
 
-
 const teste = carrinho.filter(isFragile).map(getTotal);
 console.log("teste", teste);
 
