@@ -11,5 +11,5 @@
  * 
  * Array teste:
  * [3,2,1,-4,4,7]
- * Vamos supor que o valor inicial 
+ * Vamos supor que eu quero realizar a soma
  */
