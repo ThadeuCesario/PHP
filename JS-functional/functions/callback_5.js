@@ -15,5 +15,5 @@
  * (0, 3) => 3
  * (3, 2) => 5
  * (5, 1) => 6
- * 
+ * Assim, será feito sucessivamente até realizar a soma
  */
