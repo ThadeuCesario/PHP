@@ -7,7 +7,7 @@ const carrinho = [
 ];
 
 const qtdeMaiorQueZero = item => item.qtde > 0;
-const qtdeMaiorIgualAZero = item => item
+const qtdeMaiorIgualAZero = item => item.qtde >= 0;
 const qtdeMuitoGrande = item => item.qtde >= 1000;
 const getNome = item => item.nome;
 
