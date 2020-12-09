@@ -5,3 +5,5 @@ const carrinho = [
   {nome: 'Lapis', qtde: 3, preco: 5.82},
   {nome: 'Tesoura', qtde: 1, preco: 19.20},
 ];
+
+const qtd
