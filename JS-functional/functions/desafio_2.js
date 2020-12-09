@@ -8,6 +8,8 @@ const carrinho = [
 
 // 1. Retornar elementos que são frágeis.
 // 2. Retornar a quantidade e o preço de cada produto. -> Precisamos gerar o total de cada elemento
+// 3. Média dos totais
+
 const isFragile = product => product.fragil;
 
 
