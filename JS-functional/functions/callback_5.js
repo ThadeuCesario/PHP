@@ -1,5 +1,5 @@
 /**
  * REDUCE
  * Veja a chamada de um método reduce: 
- * -> array.reduce()
+ * -> array.reduce(fn, i)
  */
