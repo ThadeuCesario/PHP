@@ -13,13 +13,4 @@ const carrinho = [
 const isFragile = product => product.fragil;
 const getTotal = product => product.preco * product.qtde;
 
-
-
-const avarage = allTotal.reduce((accumulator, element, index) => {
-  if(index === allTotal.length - 1) {
-    return (accumulator + element) / allTotal.length ;
-  } 
-  return accumulator + element;
-});
-console.log("média final",  avarage);
-
+const 
