@@ -1,3 +1,3 @@
 const carrinho = [
-  {nome: 'Caneta', qtde},
+  {nome: 'Caneta', qtde: 0},
 ]
