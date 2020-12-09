@@ -18,4 +18,4 @@ const getNome = item => item.nome;
 const produtosEmEstoque = carrinho.filter(qtdeMaiorQueZero).map(getNome);
 console.log(produtosEmEstoque);
 
-//
+//------------------------
