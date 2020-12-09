@@ -9,5 +9,5 @@ const carrinho = [
 const qtdeMaiorQueZero = item => item.qtde > 0;
 const getNome = item => item.nome;
 
-const produtosEmEstoque = carrinho.filter(qtdeMaiorQueZero).map();
+const produtosEmEstoque = carrinho.filter(qtdeMaiorQueZero).map(getNome);
 console.log(produtosEmEstoque);
