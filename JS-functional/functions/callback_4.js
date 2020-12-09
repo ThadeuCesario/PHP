@@ -32,6 +32,6 @@ Array.prototype.meuFilter = function(fn) {
 }
 
 const maiorQueQuarenta = valor => valor > 40;
-const maiorQueDezoito
+const maiorQueDezoito = valor => valor > 18;
 const arrayTeste = [5, 10, 15, 23, 89, 1256];
 console.log(arrayTeste.meuFilter(maiorQueQuarenta));
