@@ -13,6 +13,7 @@ const getNome = item => item.nome;
 
 /**
  * Veja que podemos encadear funções filter, map e reduce.
+ * Lembre-se que no filter o retorno pode variar do tamanho original do array. 
  */
 const produtosEmEstoque = carrinho.filter(qtdeMaiorIgualAZero).map(getNome);
 console.log(produtosEmEstoque);
