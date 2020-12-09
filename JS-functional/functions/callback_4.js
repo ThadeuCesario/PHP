@@ -35,4 +35,4 @@ const maiorQueQuarenta = valor => valor > 40;
 const maiorQueDezoito = valor => valor > 18;
 const arrayTeste = [5, 10, 15, 23, 89, 1256];
 console.log(arrayTeste.meuFilter(maiorQueQuarenta));
-console.log(arrayTeste.meuFilter())
+console.log(arrayTeste.meuFilter(maiorQueDezoito));
