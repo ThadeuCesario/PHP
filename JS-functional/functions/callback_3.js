@@ -36,5 +36,4 @@ Array.prototype.meuMap = function(fn) {
   return mapped;
 }
 
-const testeArray = [1,2,3,4];
-const mult = () =>
+const testeArray = [1,2,3,4].
