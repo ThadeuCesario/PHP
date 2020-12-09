@@ -23,3 +23,5 @@ console.log(produtosEmEstoque);
 Array.prototype.meuFilter = function() {
   console.log('meu filter');
 }
+
+const 
