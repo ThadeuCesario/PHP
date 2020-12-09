@@ -18,3 +18,4 @@ console.log(allTotal);
 
 // 3. Média dos totais
 
+
