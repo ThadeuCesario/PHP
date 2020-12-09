@@ -32,4 +32,4 @@ const carrinho = [
   {nome: 'Tesoura', qtde: 1, preco: 19.20},
 ];
 
-const 
+const getTotal = item 
