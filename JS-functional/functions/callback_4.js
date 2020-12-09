@@ -21,7 +21,7 @@ console.log(produtosEmEstoque);
 //------------------------
 
 Array.prototype.meuFilter = function() {
-  for(let i = 0; i < )
+  for(let i = 0; i < this.length; i++)
 }
 
 const arrayTeste = [5, 10, 15, 23, 89, 1256];
