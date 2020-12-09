@@ -22,6 +22,6 @@ const avarage = allTotal.reduce((accumulator, element, index) => {
     return (accumulator + element) / index;
   } 
   return accumulator + element;
-}) 
-
+});
+console.log(avarage);
 
