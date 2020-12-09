@@ -24,4 +24,4 @@ Array.prototype.meuFilter = function() {
   console.log('meu filter');
 }
 
-const arrayTeste = [5, 10, 15, ]
+const arrayTeste = [5, 10, 15, 23, 89, 1256]
