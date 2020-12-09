@@ -28,6 +28,7 @@ Array.prototype.meuFilter = function(fn) {
       filtered.push(this[i]);
     }
   }
+  return filtered;
 }
 
 const maiorQueQuarenta = valor => valor > 40;
