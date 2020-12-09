@@ -15,7 +15,8 @@ const getTotal = product => product.preco * product.qtde;
 
 
 const teste = carrinho.filter(isFragile).map(getTotal);
-console.log("teste", teste)
+console.log("teste", teste);
+
 
 const media = carrinho.filter(isFragile).map(getTotal).reduce((acc, el) => {
   console.log("a", acc, el);
