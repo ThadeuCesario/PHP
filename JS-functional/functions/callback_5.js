@@ -13,5 +13,6 @@
  * [3,2,1,-4,4,7]
  * Vamos supor que eu quero realizar a soma desse Array e coloquei o elemento inicial sendo 0.
  * (0, 3) => 3
- * (3,)
+ * (3, 2) => 5
+ * 
  */
