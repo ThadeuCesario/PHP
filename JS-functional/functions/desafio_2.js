@@ -19,7 +19,7 @@ console.log(allTotal);
 // 3. Média dos totais
 const avarage = allTotal.reduce((accumulator, element, index) => {
   if(index === allTotal.length - 1) {
-    console.log("ultimo elemento");
+    
   } 
   return accumulator + element;
 }) 
