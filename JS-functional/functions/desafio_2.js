@@ -6,5 +6,5 @@ const carrinho = [
   {nome: 'Tesoura', qtde: 1, preco: 19.20, fragil: true},
 ];
 
-// 1. Retornar elementos que são frágeis
+// 1. Retornar elementos que são frágeis.
 // 2. Retornar a quantidade e o preço de cada produto.
