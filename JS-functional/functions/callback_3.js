@@ -36,4 +36,5 @@ Array.prototype.meuMap = function(fn) {
   return mapped;
 }
 
-const testeArray = [1,2,3,4].meuMap(item => item*2)
+const testeArray = [1,2,3,4].meuMap(item => item*2);
+console.log()
