@@ -7,4 +7,4 @@ const carrinho = [
 ];
 
 const qtdeMaiorQueZero = item => item.qtde > 0;
-carrinho.filter(qtdeMaiorQueZero)
+console.log(carrinho.filter(qtdeMaiorQueZero)
