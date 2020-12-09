@@ -17,7 +17,7 @@ const allTotal = carrinho.map(getTotal);
 console.log(allTotal);
 
 // 3. Média dos totais
-const avarage = allTotal.reduce((accumulator, element, a) => {
+const avarage = allTotal.reduce((accumulator, element, index) => {
   console.log(accumulator, element);
   console.log("verificando elemento", a);
   return accumulator + element;
