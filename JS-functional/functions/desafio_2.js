@@ -13,7 +13,7 @@ console.log(allFragile);
 
 // 2. Retornar a quantidade e o preço de cada produto. -> Precisamos gerar o total de cada elemento
 const getTotal = product => product.preco * product.qtde;
-const allTotal = 
+const allTotal = carrinho
 
 // 3. Média dos totais
 
