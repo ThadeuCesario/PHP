@@ -1,3 +1,3 @@
 /**
- * Promise é uma promessa, 
+ * Promise é uma promessa, basicamente é algo que será resolvido no futuro.
  */
