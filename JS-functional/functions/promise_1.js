@@ -3,6 +3,7 @@
  * 
  * Uma promise é uma function.
  * Quando criamos uma Promise, é retornado um array.
+ * Quando criamos uma Promise, precisamos passar uma função como parâmetro.
  */
 
  let a = 1;
