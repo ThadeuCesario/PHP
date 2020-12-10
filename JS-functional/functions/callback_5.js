@@ -41,7 +41,8 @@ Array.prototype.meuReduce = function (fn, inicial) {
   let acc = inicial;
   for(let i = 0; i < this.length; i++) {
     if(!acc) {
-      acc = this[i]
+      acc = this[i];
+      continue;
     }
   }
 }
