@@ -50,4 +50,4 @@ Array.prototype.meuReduce = function (fn, inicial) {
 }
 
 const arrayTeste = [5, 5, 5, 5];
-arrayTeste.meuReduce()
+arrayTeste.meuReduce(())
