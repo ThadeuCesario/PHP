@@ -46,4 +46,6 @@ Array.prototype.meuReduce = function (fn, inicial) {
     }
     acc = fn(acc, this[i], i this);
   }
+
+  return acc;
 }
