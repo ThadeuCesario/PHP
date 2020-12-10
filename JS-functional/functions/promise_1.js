@@ -6,4 +6,4 @@
  console.log(a);
 
  let p = new Promise();
-console.log()
+console.log(typeof Promise)
