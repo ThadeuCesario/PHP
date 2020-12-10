@@ -17,7 +17,9 @@
    cumprirPromessa(3);
  });
 
- p.then(function(valor))
+ p.then(function(valor){
+   console.log()
+ })
 
 console.log(p);
 console.log(typeof Promise);
