@@ -50,4 +50,4 @@ Array.prototype.meuReduce = function (fn, inicial) {
 }
 
 const arrayTeste = [5, 5, 5, 5];
-console.log(arrayTeste.meuReduce((accumulator, element) => accumulator + element);
+console.log(arrayTeste.meuReduce((accumulator, element) => accumulator + element));
