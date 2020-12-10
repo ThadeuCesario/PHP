@@ -9,7 +9,7 @@
  * quando a promessa for cumprida.
  * Para acessarmos a função que vamos executar, precisamos utilizar o método then. 
  * Um detalhe importante é que na função de promessa, podemos passar apenas um único parametro.
- * Podemos encadeader vários then'
+ * Podemos encadeader vários 'then' conforme a necessidade.
  */
 
  let a = 1;
