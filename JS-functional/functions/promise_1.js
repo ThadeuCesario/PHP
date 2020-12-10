@@ -7,6 +7,7 @@
  * parâmetro, também receberá uma função. Essa função que será chamada quando formos cumprir a promessa. 
  * Então quando criamos uma promise, passamos uma função como parâmetro que tem outra função que será chamada
  * quando a promessa for cumprida.
+ * Para acessarmos a função que vamos executar, precisamos utilizar o método then. 
  */
 
  let a = 1;
