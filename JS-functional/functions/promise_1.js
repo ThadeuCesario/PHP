@@ -19,6 +19,7 @@
 
  p.then(function(valor){
    console.log("acessando pelo then", valor);
+   
  })
 
 console.log(p);
