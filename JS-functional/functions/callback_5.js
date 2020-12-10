@@ -39,5 +39,5 @@ console.log(totalGeral);
 
 Array.prototype.meuReduce = function (fn, inicial) {
   let acc = inicial;
-  for(let i == )
+  for(let i = 0)
 }
