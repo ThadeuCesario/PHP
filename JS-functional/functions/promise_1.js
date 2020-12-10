@@ -15,7 +15,7 @@
  console.log(a);
 
  let p = new Promise(function(cumprirPromessa){
-   
+   //Só podemos passar um parâmetro para essa função.
    cumprirPromessa(3);
  });
 
