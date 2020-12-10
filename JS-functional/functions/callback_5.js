@@ -50,5 +50,5 @@ Array.prototype.meuReduce = function (fn, inicial) {
 }
 
 const arrayTeste = [5, 5, 5, 5];
-console.log("meu array", arrayTeste.meuReduce((accumulator, element) => accumulator + element));
+console.log("meu array - sem valor inicial", arrayTeste.meuReduce((accumulator, element) => accumulator + element));
 
