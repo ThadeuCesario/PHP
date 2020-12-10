@@ -13,6 +13,6 @@
  console.log(a);
 
  let p = new Promise(function(cumprirPromessa){
-   cumprirPromessa();
+   cumprirPromessa(3);
  });
 console.log(typeof Promise);
