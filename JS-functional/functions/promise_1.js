@@ -25,5 +25,7 @@
    console.log("tipo preservado", typeof valor);
  })
 
+ p.then
+
 console.log(p);
 console.log(typeof Promise);
