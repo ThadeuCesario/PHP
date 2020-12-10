@@ -36,3 +36,7 @@ const getTotal = item => item.qtde * item.preco;
 const totalGeral = carrinho.map(getTotal);
 console.log(Math.floor(totalGeral.reduce((accumulator, element) => accumulator + element)));
 console.log(totalGeral);
+
+Array.prototype.meuReduce = function (fn, inicial) {
+
+}
