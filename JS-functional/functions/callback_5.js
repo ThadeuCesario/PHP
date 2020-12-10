@@ -38,5 +38,5 @@ console.log(Math.floor(totalGeral.reduce((accumulator, element) => accumulator +
 console.log(totalGeral);
 
 Array.prototype.meuReduce = function (fn, inicial) {
-  let acc
+  let acc = inicial;
 }
