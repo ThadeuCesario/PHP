@@ -25,6 +25,7 @@
    console.log("tipo preservado", typeof valor);
  })
 
+ const final = 
  console.log(p.then(valor => valor + 2));
 
 console.log(p);
