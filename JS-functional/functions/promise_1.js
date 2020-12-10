@@ -15,4 +15,5 @@
  let p = new Promise(function(cumprirPromessa){
    cumprirPromessa(3);
  });
+console.log()
 console.log(typeof Promise);
