@@ -2,7 +2,7 @@
  * Promise é uma promessa, basicamente é algo que será resolvido no futuro.
  * 
  * Uma promise é uma function.
- * Quando criamos uma Promise
+ * Quando criamos uma Promise, CRIAMOS UM OBJETO
  */
 
  let a = 1;
