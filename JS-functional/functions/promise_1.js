@@ -8,6 +8,7 @@
  * Então quando criamos uma promise, passamos uma função como parâmetro que tem outra função que será chamada
  * quando a promessa for cumprida.
  * Para acessarmos a função que vamos executar, precisamos utilizar o método then. 
+ * Um detalhe importante é que na função de promessa, podemos passar apenas um único valor.
  */
 
  let a = 1;
