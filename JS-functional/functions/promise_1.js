@@ -25,7 +25,7 @@
    console.log("tipo preservado", typeof valor);
  })
 
- p.then(valor => valor + 2)
+ console.log(p.then(valor => valor + 2)
 
 console.log(p);
 console.log(typeof Promise);
