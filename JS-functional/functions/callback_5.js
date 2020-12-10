@@ -49,4 +49,4 @@ Array.prototype.meuReduce = function (fn, inicial) {
   return acc;
 }
 
-const arrayTeste = []
+const arrayTeste = [11 2, 3]
