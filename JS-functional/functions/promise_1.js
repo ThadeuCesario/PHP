@@ -27,5 +27,6 @@
 
  const final = p.then(valor => valor + 2)
  console.log("verificando final", final);
+console.log
 console.log(p);
 console.log(typeof Promise);
