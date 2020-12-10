@@ -5,7 +5,8 @@
  * Quando criamos uma Promise, é retornado um array.
  * Quando criamos uma Promise, precisamos passar uma função como parâmetro. Porém a função que passamos como
  * parâmetro, também receberá uma função. Essa função que será chamada quando formos cumprir a promessa. 
- * Então quando criamos uma promise, passamos uma função
+ * Então quando criamos uma promise, passamos uma função como parâmetro que tem outra função que será chamada
+ * quando a promessa for chamada.
  */
 
  let a = 1;
