@@ -25,8 +25,8 @@
    console.log("tipo preservado", typeof valor);
  })
 
- const final = 
- console.log(p.then(valor => valor + 2));
+ const final = p.then(valor => valor + 2)
+ console.log(final);
 
 console.log(p);
 console.log(typeof Promise);
