@@ -17,7 +17,7 @@
    cumprirPromessa(3);
  });
 
- 
+ p.then(function(valor))
 
 console.log(p);
 console.log(typeof Promise);
