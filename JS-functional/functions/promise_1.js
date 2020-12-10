@@ -18,7 +18,7 @@
  });
 
  p.then(function(valor){
-   console.log()
+   console.log("acessando pelo then", valor);
  })
 
 console.log(p);
