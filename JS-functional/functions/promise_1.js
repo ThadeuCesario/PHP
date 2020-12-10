@@ -1,0 +1,3 @@
+/**
+ * Promise é uma promessa, 
+ */
