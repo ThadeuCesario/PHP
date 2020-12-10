@@ -40,6 +40,8 @@ console.log(totalGeral);
 Array.prototype.meuReduce = function (fn, inicial) {
   let acc = inicial;
   for(let i = 0; i < this.length; i++) {
-    if(!)
+    if(!acc) {
+      acc = this[i]
+    }
   }
 }
