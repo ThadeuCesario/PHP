@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-function readFile() {
+function readFile(caminho) {
   return new Promise(function(resolve){
     resolve(3)
   })
