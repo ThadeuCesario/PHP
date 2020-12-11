@@ -4,4 +4,4 @@ function readFile() {
   })
 }
 
-readFile
+readFile.then()
