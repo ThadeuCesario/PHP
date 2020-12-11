@@ -2,7 +2,7 @@ function gerarNumerosEntre(min, max){
   if(min > max) [min, max] = [max, min];
  
   return new Promise(function(resolve){
-    const aleatorio = Math.random()
+    const aleatorio = Math.random * (max - min) +
     resolve(7)
   })
 }
