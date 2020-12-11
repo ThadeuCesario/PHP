@@ -20,6 +20,6 @@
    cumprirPromessa(['Thadeu', 'Karina', 'Daisy', 'Thalyta']);
  });
 
-
+p.then()
  
 console.log(typeof Promise);
