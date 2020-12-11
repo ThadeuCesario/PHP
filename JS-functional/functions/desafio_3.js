@@ -6,7 +6,6 @@ function readFile(caminho) {
     const content = fs.readFile(caminho, {}, (_, conteudo) => {
       return resolve(conteudo.toString());
     });
-    return content;
   })
 }
 
