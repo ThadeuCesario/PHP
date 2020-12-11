@@ -20,4 +20,4 @@ function esperarPor(tempo = 2000) {
   });
 }
 
-esperarPor(3000)
+let p = esperarPor(3000)
