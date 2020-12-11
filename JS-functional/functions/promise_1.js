@@ -30,7 +30,7 @@ function primeiroLetra(palavra){
   return palavra[0];
 }
 
-p.then(valor => valor[0])
+p.then()
  .then(primeiro => primeiro[0])
  .then(letra => letra.toLowerCase())
  .then(letraMinuscula => console.log(letraMinuscula));
