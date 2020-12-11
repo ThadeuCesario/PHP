@@ -14,7 +14,7 @@ setTimeout(function() {
 */
 
 function esperarPor(tempo = 2000) {
-  return Promise(function(resolve){
+  return new Promise(function(resolve){
     setTimeout(function(){
       console.log('Executando promise...');
       resolve('Teste'); 
