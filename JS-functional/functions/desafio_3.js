@@ -3,3 +3,5 @@ function readFile() {
     resolve(3)
   })
 }
+
+readFile
