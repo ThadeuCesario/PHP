@@ -3,7 +3,7 @@ function gerarNumerosEntre(min, max){
  
   return new Promise(function(resolve){
     setTimeout(function(){
-
+      resolve(parseInt(Math.random() * (max - min + 1)) + min);
     },)
   })
 }
