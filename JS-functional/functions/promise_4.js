@@ -8,6 +8,4 @@ function gerarNumerosEntre(min, max, tempo = 2000){
   })
 }
 
-gerarNumerosEntre(1, 60)
-  .then(num => num * 10)
-  .then(numX10 => console.log(`O número gerado foi ${numX10}`));
+function gerar
