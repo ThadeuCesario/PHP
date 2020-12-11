@@ -1,1 +1,1 @@
-setTime
+setTimeout(function)
