@@ -3,7 +3,7 @@ const path = require('path');
 
 function readFile(caminho) {
   return new Promise(function(resolve){
-    resolve(3)
+    resolve(caminho)
   })
 }
 
