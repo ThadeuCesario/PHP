@@ -7,6 +7,6 @@ function readFile() {
   })
 }
 
-
+const caminho = path.join(__dirname, 'dados.txt');
 
 readFile().then(valor => console.log(valor));
