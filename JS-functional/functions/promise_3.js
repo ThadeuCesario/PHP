@@ -1,7 +1,7 @@
 function gerarNumerosEntre(min, max){
   if(min > max) [min, max] = [max, min];
  
-  return nem Promise(function(resolve){
+  return nwq Promise(function(resolve){
     resolve(7)
   })
 }
