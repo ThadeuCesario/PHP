@@ -17,9 +17,9 @@
  let a = 1;
  console.log(a);
 
- let p = new Promise(function(cumprirPromessa){
+ let p = new Promise(function(resolve){
    //Só podemos passar um parâmetro para essa função.
-   cumprirPromessa(['Thadeu', 'Karina', 'Daisy', 'Thalyta']);
+   resolve(['Thadeu', 'Karina', 'Daisy', 'Thalyta']);
  });
 
 function primeiroElemento(array) {
