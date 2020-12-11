@@ -10,6 +10,8 @@
  * Para acessarmos a função que vamos executar, precisamos utilizar o método then. 
  * Um detalhe importante é que na função de promessa, podemos passar apenas um único parametro.
  * Podemos encadeader vários 'then' conforme a necessidade.
+ * 
+ * O resultado de um método 'then'
  */
 
  let a = 1;
