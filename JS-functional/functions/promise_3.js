@@ -1,1 +1,3 @@
-function gerarNumerosEntre(min, max)
+function gerarNumerosEntre(min, max){
+  if()
+}
