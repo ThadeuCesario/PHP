@@ -9,5 +9,5 @@ function gerarNumerosEntre(min, max, tempo = 2000){
 }
 
 function gerarVariosNumeros() {
-  return Pro
+  return new Promise
 }
