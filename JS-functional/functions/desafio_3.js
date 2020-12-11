@@ -4,7 +4,7 @@ const path = require('path');
 function readFile(caminho) {
   return new Promise(function(resolve){
     const content = fs.readFile(caminho, {}, (_, conteudo) => {
-      return console.log("verificando retorno", conteudo);
+      return console.log("verificando retorno", conteudo.toString());
     });
     console.log(content);
     resolve(content);
