@@ -8,4 +8,4 @@ function gerarNumerosEntre(min, max, tempo = 2000){
   })
 }
 
-function gerar
+function gerarVariosNumeros
