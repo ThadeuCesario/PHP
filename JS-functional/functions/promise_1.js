@@ -31,7 +31,7 @@ function primeiraLetra(palavra){
 }
 
 function converterParaLetraMinuscula(letra){
-  
+  return letra.toLowerCase();
 }
 
 p.then(primeiroElemento)
