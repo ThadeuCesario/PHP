@@ -23,3 +23,4 @@ function esperarPor(tempo = 2000) {
 
 esperarPor()
   .then(()) => esperarPor())
+  .then(()) => esperarPor())
