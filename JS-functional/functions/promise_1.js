@@ -22,6 +22,6 @@
 
 p.then(valor => valor[0])
  .then(primeiro => primeiro[0])
- .then(letra => letra.toLo);
+ .then(letra => letra.toLowerCase());
  
 console.log(typeof Promise);
