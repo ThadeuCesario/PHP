@@ -34,7 +34,9 @@ function converterParaLetraMinuscula(letra){
   return letra.toLowerCase();
 }
 
-function imprimirResultado(valor)
+function imprimirResultado(valor){
+  return console.log(valor);
+}
 
 p.then(primeiroElemento)
  .then(primeiraLetra)
