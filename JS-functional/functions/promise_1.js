@@ -21,6 +21,6 @@
  });
 
 p.then(valor => valor[0])
- .then(primeiro => console.log("verificando primeiro elemento", primeirol));
+ .then(primeiro => console.log("verificando primeiro elemento", primeiro));
  
 console.log(typeof Promise);
