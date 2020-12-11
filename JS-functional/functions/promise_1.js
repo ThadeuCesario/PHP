@@ -35,7 +35,7 @@ function converterParaLetraMinuscula(letra){
 }
 
 function imprimirResultado(valor){
-  return console.log(valor);
+  return console.log("final", valor);
 }
 
 p.then(primeiroElemento)
