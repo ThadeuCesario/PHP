@@ -16,5 +16,6 @@ function gerarVariosNumeros() {
   ]);
 }
 
+console.log()
 gerarVariosNumeros().then(console.log);
 
