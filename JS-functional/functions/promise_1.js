@@ -31,7 +31,7 @@ function primeiraLetra(palavra){
 }
 
 p.then(primeiroElemento)
- .then(primeiro => primeiro[0])
+ .then(primeiraLetra)
  .then(letra => letra.toLowerCase())
  .then(letraMinuscula => console.log(letraMinuscula));
  
