@@ -1,1 +1,1 @@
-function
+function gerarNumerosEntre(min, max)
