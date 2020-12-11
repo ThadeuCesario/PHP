@@ -8,5 +8,6 @@ function readFile(caminho) {
 }
 
 const caminho = path.join(__dirname, 'dados.txt');
+
 readFile(caminho)
   .then(valor => console.log(valor));
