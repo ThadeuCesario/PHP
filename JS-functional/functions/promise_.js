@@ -1,3 +1,3 @@
 setTimeout(function() {
-  console.log()
+  console.log('')
 }, 2000);
