@@ -21,5 +21,5 @@ function esperarPor(tempo = 2000) {
   });
 }
 
-esperarPor(3000)
+esperarPor(300)
   .then(texto => console.log(texto));
