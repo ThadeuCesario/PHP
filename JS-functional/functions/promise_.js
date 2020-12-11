@@ -1,4 +1,4 @@
-
+/*
 setTimeout(function() {
   console.log('Execuando callback......');
 
@@ -11,6 +11,7 @@ setTimeout(function() {
     }, 2000)
   }, 2000)
 }, 2000);
+*/
 
 function esperarPor(tempo = 2000) {
   return Promise(function(resolve){
