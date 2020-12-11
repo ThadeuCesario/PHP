@@ -1,4 +1,4 @@
-function gerarNumerosEntre(min, max){
+function gerarNumerosEntre(min, max, tempo = 2000){
   if(min > max) [min, max] = [max, min];
  
   return new Promise(function(resolve){
