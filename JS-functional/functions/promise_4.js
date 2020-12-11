@@ -12,6 +12,6 @@ function gerarVariosNumeros() {
   return new Promise.all([
     gerarNumerosEntre(1, 60, 1000),
     gerarNumerosEntre(1, 2130, 2500),
-    gerarNumerosEntre(1, 59989898, 1000),
+    gerarNumerosEntre(1, 59989898, 150),
   ]);
 }
