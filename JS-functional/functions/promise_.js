@@ -11,4 +11,6 @@ setTimeout(function() {
   }, 2000)
 }, 2000);
 
-function esperarPor(tempo)
+function esperarPor(tempo = 2000) {
+  
+}
