@@ -1,5 +1,5 @@
 function readFile() {
   return new Promise(function(resolve){
-    resolve()
+    resolve(3)
   })
 }
