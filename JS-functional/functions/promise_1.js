@@ -36,7 +36,7 @@ function converterParaLetraMinuscula(letra){
 
 p.then(primeiroElemento)
  .then(primeiraLetra)
- .then(letra => letra.toLowerCase())
+ .then(converterParaLetraMinuscula)
  .then(letraMinuscula => console.log(letraMinuscula));
  
 console.log(typeof Promise);
