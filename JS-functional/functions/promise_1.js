@@ -24,7 +24,9 @@
 
 function primeiroElemento(array) {
   return array[0]
-}]
+}
+
+function 
 
 p.then(valor => valor[0])
  .then(primeiro => primeiro[0])
