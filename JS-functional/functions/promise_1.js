@@ -21,6 +21,7 @@
  });
 
 p.then(valor => valor[0])
- .then(primeiro => primeiro[0]);
+ .then(primeiro => primeiro[0])
+ .then()
  
 console.log(typeof Promise);
