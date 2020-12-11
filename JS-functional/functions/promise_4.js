@@ -21,6 +21,6 @@ gerarVariosNumeros()
   .then(console.log)
   .then(() => {
     console.timeLog('promise');
-console.timeEnd('promise');
+    console.timeEnd('promise');
   });
 
