@@ -23,7 +23,7 @@
  });
 
 function primeiroElemento(array) {
-
+  return ar
 }
 
 p.then(valor => valor[0])
