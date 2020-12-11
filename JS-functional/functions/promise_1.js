@@ -17,7 +17,7 @@
 
  let p = new Promise(function(cumprirPromessa){
    //Só podemos passar um parâmetro para essa função.
-   cumprirPromessa(['Thadeu']);
+   cumprirPromessa(['Thadeu', 'Karina']);
  });
 
  p.then(function(valor){
