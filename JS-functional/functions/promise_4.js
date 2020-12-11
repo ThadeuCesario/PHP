@@ -19,6 +19,8 @@ function gerarVariosNumeros() {
 console.time('promise');
 gerarVariosNumeros()
   .then(console.log)
-  .then()
+  .then(() => {
+
+  });
 console.timeLog('promise');
 console.timeEnd('promise');
