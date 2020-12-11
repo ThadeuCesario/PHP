@@ -1,3 +1,3 @@
 function readFile() {
-  return 
+  return new Promise(function(resolve))
 }
