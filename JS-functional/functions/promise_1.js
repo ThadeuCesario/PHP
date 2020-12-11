@@ -23,6 +23,6 @@
  p.then(function(valor){
    console.log("acessando pelo then", valor);
    console.log("tipo preservado", typeof valor);
- })
+ });
  
 console.log(typeof Promise);
