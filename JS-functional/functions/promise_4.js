@@ -16,3 +16,4 @@ function gerarVariosNumeros() {
   ]);
 }
 
+gerarVariosNumeros
