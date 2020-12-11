@@ -1,3 +1,3 @@
 setTimeout(function() {
-  console.log('Execuando callback......')
+  console.log('Execuando callback......');
 }, 2000);
