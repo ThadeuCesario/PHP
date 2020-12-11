@@ -41,6 +41,6 @@ function imprimirResultado(valor){
 p.then(primeiroElemento)
  .then(primeiraLetra)
  .then(converterParaLetraMinuscula)
- .then(letraMinuscula => console.log(letraMinuscula));
+ .then(imprimirResultado);
  
 console.log(typeof Promise);
