@@ -1,3 +1,3 @@
 function gerarNumerosEntre(min, max){
-  if()
+  if(min > max) 
 }
