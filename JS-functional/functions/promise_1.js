@@ -26,7 +26,9 @@ function primeiroElemento(array) {
   return array[0]
 }
 
-function primeiroLetra()
+function primeiroLetra(palavra){
+  return 
+}
 
 p.then(valor => valor[0])
  .then(primeiro => primeiro[0])
