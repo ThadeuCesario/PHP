@@ -22,4 +22,4 @@ function esperarPor(tempo = 2000) {
 }
 
 esperarPor()
-  .then(()) => console.log(texto));
+  .then(()) => esperarPor())
