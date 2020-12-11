@@ -18,4 +18,4 @@ function gerarVariosNumeros() {
 
 console.time('promise');
 gerarVariosNumeros().then(console.log);
-console.log
+console.time
