@@ -11,7 +11,7 @@
  * Um detalhe importante é que na função de promessa, podemos passar apenas um único parametro.
  * Podemos encadeader vários 'then' conforme a necessidade.
  * 
- * O resultado de um método 'then'
+ * O resultado de um método 'then' é sempre passado para seu próximo método then.
  */
 
  let a = 1;
