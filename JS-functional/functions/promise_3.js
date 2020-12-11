@@ -4,4 +4,4 @@ function gerarNumerosEntre(min, max){
   console.log("max", max);
 }
 
-gerarNumerosEntre(5, 10);
+0
