@@ -20,4 +20,4 @@ function esperarPor(tempo = 2000) {
   });
 }
 
-esperarPor
+esperarPor(3000)
