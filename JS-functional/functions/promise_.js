@@ -14,7 +14,8 @@ setTimeout(function() {
 function esperarPor(tempo = 2000) {
   return Promise(function(resolve){
     setTimeout(function(){
-     resolve(); 
+      console.log('')
+      resolve(); 
     }, tempo);
   });
 }
