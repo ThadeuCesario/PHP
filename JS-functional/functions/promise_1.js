@@ -26,7 +26,7 @@ function primeiroElemento(array) {
   return array[0]
 }
 
-function primeiroLetra(palavra){
+function primeiraLetra(palavra){
   return palavra[0];
 }
 
