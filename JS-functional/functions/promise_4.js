@@ -17,3 +17,4 @@ function gerarVariosNumeros() {
 }
 
 gerarVariosNumeros().then(console.log);
+
