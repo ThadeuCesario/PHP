@@ -22,7 +22,7 @@
    cumprirPromessa(['Thadeu', 'Karina', 'Daisy', 'Thalyta']);
  });
 
-function primeiroElemento() {
+function primeiroElemento(array) {
 
 }
 
