@@ -11,3 +11,4 @@ setTimeout(function() {
   }, 2000)
 }, 2000);
 
+function esperarPor
