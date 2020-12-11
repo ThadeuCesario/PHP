@@ -30,6 +30,8 @@ function primeiraLetra(palavra){
   return palavra[0];
 }
 
+function conv
+
 p.then(primeiroElemento)
  .then(primeiraLetra)
  .then(letra => letra.toLowerCase())
