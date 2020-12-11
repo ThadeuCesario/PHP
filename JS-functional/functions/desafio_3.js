@@ -4,4 +4,4 @@ function readFile() {
   })
 }
 
-readFile.then(valor => console.log(valor));
+readFile().then(valor => console.log(valor));
