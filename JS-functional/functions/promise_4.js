@@ -15,3 +15,4 @@ function gerarVariosNumeros() {
     gerarNumerosEntre(1, 59989898, 150),
   ]);
 }
+
