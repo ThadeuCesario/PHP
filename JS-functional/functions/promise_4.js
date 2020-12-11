@@ -16,6 +16,6 @@ function gerarVariosNumeros() {
   ]);
 }
 
-console.log()
+console.log('promise');
 gerarVariosNumeros().then(console.log);
 
