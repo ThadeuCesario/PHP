@@ -6,4 +6,5 @@ function gerarNumerosEntre(min, max){
   })
 }
 
-gerarNumerosEntre(1, 60).then();
+gerarNumerosEntre(1, 60)
+  .then()
