@@ -21,6 +21,6 @@
  });
 
 p.then(valor => valor[0]);
- .then(primeiro => console.log())
+ .then(primeiro => console.log(""))
  
 console.log(typeof Promise);
