@@ -18,4 +18,4 @@ function gerarVariosNumeros() {
 
 console.log('promise');
 gerarVariosNumeros().then(console.log);
-
+console.log
