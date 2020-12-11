@@ -7,4 +7,5 @@ function gerarNumerosEntre(min, max){
 }
 
 gerarNumerosEntre(1, 60)
+  .then(num => num * 10)
   .then()
