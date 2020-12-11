@@ -30,7 +30,9 @@ function primeiraLetra(palavra){
   return palavra[0];
 }
 
-function converterParaLetraMinuscula()
+function converterParaLetraMinuscula(letra){
+  
+}
 
 p.then(primeiroElemento)
  .then(primeiraLetra)
