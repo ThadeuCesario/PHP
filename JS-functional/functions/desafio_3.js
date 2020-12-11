@@ -10,4 +10,4 @@ function readFile(caminho) {
 const caminho = path.join(__dirname, 'dados.txt');
 
 readFile(caminho)
-  .then();
+  .then(console.log);
