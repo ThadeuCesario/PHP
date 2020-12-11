@@ -20,7 +20,7 @@
    cumprirPromessa(['Thadeu', 'Karina', 'Daisy', 'Thalyta']);
  });
 
-p.then(valor => valor[0]);
+p.then(valor => valor[0])
  .then(primeiro => console.log("verificando primeiro elemento", primeirol));
  
 console.log(typeof Promise);
