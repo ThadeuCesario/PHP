@@ -11,7 +11,9 @@ function gerarNumerosEntre(min, max, numeroProibidos){
 }
 
 function gerarMegaSena(qtdeNumeros) {
-  for(let _ of Array(qtdeNumeros).fill())
+  for(let _ of Array(qtdeNumeros).fill()) {
+    
+  }
 } 
 
 gerarNumerosEntre(1, 10, [1,2,4])
