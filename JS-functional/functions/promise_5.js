@@ -7,7 +7,7 @@
 function funcionarOuNao(valor, chanceErro) {
   return new Promise((resolve, reject) => {
     if(Math.random() < chanceErro) {
-      
+      // Gerar erro
     }
   })
 }
