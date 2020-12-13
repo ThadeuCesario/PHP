@@ -48,4 +48,5 @@ async function getValue() {
   return await executar();
 }
 
-const finalValue = getValue()
+const finalValue = getValue();
+console.log("va")
