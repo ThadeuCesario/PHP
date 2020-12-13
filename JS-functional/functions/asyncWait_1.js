@@ -48,3 +48,4 @@ async function getValue() {
   return await executar();
 }
 
+const finalValue = 
