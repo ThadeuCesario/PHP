@@ -9,6 +9,8 @@ function funcionarOuNao(valor, chanceErro) {
     if(Math.random() < chanceErro) {
       // Gerar erro
       reject('Ocorreu um erro!');
+    } else {
+      resolve();
     }
   })
 }
