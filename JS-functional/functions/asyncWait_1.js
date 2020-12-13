@@ -30,6 +30,8 @@ esperarPor(2000)
 
 
 async function executar() {
+  await re
+
   await esperarPor(1500);
   console.log('Async/Await 1...');
 
