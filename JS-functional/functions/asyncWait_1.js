@@ -19,7 +19,8 @@ esperarPor(2000)
 
 
 async function executar() {
-  esperarPor(2000)
+  esperarPor(2000);
+  
 }
 
 executar();
