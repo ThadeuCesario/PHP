@@ -3,7 +3,7 @@ function gerarNumerosEntre(min, max, numeroProibidos){
  
   return new Promise(function(resolve){
     setTimeout(function(){
-      
+      const fator = max - min 
     });
   })
 }
