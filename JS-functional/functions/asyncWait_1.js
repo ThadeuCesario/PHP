@@ -32,6 +32,6 @@ async function executar() {
   console.log('Async/Await 3...');
 }
 
-
+function retornarValor() 
 
 executar();
