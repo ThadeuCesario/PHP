@@ -37,7 +37,7 @@ function retornarValor() {
     setTimeout(() => {
       resolve(10)
     }, 5000);
-  })
+  });
 }
 
 executar();
