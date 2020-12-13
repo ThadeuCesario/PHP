@@ -13,4 +13,4 @@ function esperarPor(tempo = 2000) {
 }
 
 esperarPor(2000)
-  .then(esperarPor(1))
+  .then(esperarPor(2000))
