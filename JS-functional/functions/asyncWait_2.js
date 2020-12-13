@@ -10,6 +10,6 @@ function gerarNumerosEntre(min, max, numeroProibidos){
   })
 }
 
-gerarNumerosEntre(1, 5, [1,2,4])
+gerarNumerosEntre(1, 10, [1,2,4])
   .then(console.log)
   .catch(console.log)
