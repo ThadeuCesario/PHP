@@ -24,6 +24,6 @@ async function gerarMegaSena(qtdeNumeros) {
 
 } 
 
-gerarMegaSena(8)
+gerarMegaSena(50)
   .then(console.log)
   .catch(console.log);
