@@ -21,4 +21,4 @@ function gerarMegaSena(qtdeNumeros) {
   return numeros
 } 
 
-ger
+gerarMegaSena(15);
