@@ -18,7 +18,9 @@ async function gerarMegaSena(qtdeNumeros) {
     }
     console.log(`Testando os numeros da mega sena ${numeros}`);
     return numeros
-  } catch(err)
+  } catch(err) {
+    th
+  }
 
 } 
 
