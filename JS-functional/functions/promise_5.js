@@ -15,4 +15,4 @@ function funcionarOuNao(valor, chanceErro) {
   })
 }
 
-func
+funcionarOuNao
