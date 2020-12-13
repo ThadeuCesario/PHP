@@ -1,6 +1,6 @@
 /**
  * Async e Await
- * Basicamente o async await força o ag
+ * Basicamente o async await força o aguardar o carregamento
  */
 
 function esperarPor(tempo = 2000) {
