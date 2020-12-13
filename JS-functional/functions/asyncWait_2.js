@@ -23,7 +23,7 @@ async function gerarMegaSena(qtdeNumeros, tentativas = 1) {
       throw "Erro gerado";
     }
     else {
-      return gerarMegaSena(qtdeNumeros)
+      return gerarMegaSena(qtdeNumeros,  tentativas + 1);
     }
   }
 
