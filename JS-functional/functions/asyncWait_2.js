@@ -19,6 +19,9 @@ async function gerarMegaSena(qtdeNumeros, tentativas = 1) {
     console.log(`Testando os numeros da mega sena ${numeros}`);
     return numeros
   } catch(err) {
+    if(tentativas > 10) {
+      
+    }
     throw "Erro gerado";
   }
 
