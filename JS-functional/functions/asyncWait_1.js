@@ -10,5 +10,6 @@ function esperarPor(tempo = 2000) {
 }
 
 esperarPor(2000)
+  .then(() => console.log('E'))
   .then(esperarPor(2000))
   .then(esperarPor(2000));
