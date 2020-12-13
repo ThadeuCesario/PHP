@@ -6,6 +6,8 @@
 
 function funcionarOuNao(valor, chanceErro) {
   return new Promise((resolve, reject) => {
-    if(Math.random() < chanceErro)
+    if(Math.random() < chanceErro) {
+      
+    }
   })
 }
