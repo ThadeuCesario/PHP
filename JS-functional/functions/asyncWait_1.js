@@ -18,7 +18,7 @@ esperarPor(2000)
 
 
 async function executar() {
-  console.log('executar');
+  await console.log('executar');
 }
 
 executar();
