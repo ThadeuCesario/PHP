@@ -1,6 +1,5 @@
 /**
  * 
- * @param {*} tempo 
  */
 
 function esperarPor(tempo = 2000) {
