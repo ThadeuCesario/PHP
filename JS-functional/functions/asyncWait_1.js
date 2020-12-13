@@ -49,3 +49,5 @@ async function getValue() {
   console.log(valor);
 }
 
+getValue();
+
