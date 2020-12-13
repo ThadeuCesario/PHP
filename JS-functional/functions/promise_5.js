@@ -5,5 +5,5 @@
  */
 
 function funcionarOuNao(valor, chanceErro) {
-  return new Promise(())
+  return new Promise((resolve, reject))
 }
