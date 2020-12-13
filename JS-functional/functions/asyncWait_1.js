@@ -45,4 +45,3 @@ async function executar() {
 }
 
 executar().then(value => finalValue = value);
-console.log(finalValue);
