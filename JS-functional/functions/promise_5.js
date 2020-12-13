@@ -1,5 +1,5 @@
 /**
- * rre
+ * 
  */
 
 function funcionarOuNao(valor, chanceErro) {
