@@ -6,7 +6,7 @@ function gerarNumerosEntre(min, max, numeroProibidos){
       const fator = max - min + 1;
       const aleatorio = parseInt(Math.random() * fator) + min;
       if(numeroProibidos.includes(aleatorio)) reject('Número repetido.');
-      else 
+      else resolve(aleatorio);
     });
   })
 }
