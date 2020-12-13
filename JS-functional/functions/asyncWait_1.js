@@ -32,4 +32,6 @@ async function executar() {
   console.log('Async/Await 3...');
 }
 
+
+
 executar();
