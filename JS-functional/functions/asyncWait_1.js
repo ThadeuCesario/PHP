@@ -45,5 +45,5 @@ async function executar() {
 }
 
 async function getValue() {
-  
+  return 
 }
