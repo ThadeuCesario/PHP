@@ -1,6 +1,5 @@
 function gerarNumerosEntre(min, max, numeroProibidos){
   if(min > max) [min, max] = [max, min];
- 
   return new Promise((resolve, reject) => {
     setTimeout(function(){
       const fator = max - min + 1;
