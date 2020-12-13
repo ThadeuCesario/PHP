@@ -15,4 +15,4 @@ function funcionarOuNao(valor, chanceErro) {
   })
 }
 
-funcionarOuNao('Hello world!', 0.1).then()
+funcionarOuNao('Hello world!', 0.1).then(console.log)
