@@ -1,6 +1,6 @@
 /**
  * Async e Await
- * 
+ * Basicamente o async await 
  */
 
 function esperarPor(tempo = 2000) {
