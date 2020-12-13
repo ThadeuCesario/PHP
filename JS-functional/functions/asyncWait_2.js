@@ -11,3 +11,4 @@ function gerarNumerosEntre(min, max, numeroProibidos){
 }
 
 gerarNumerosEntre(1, 5, [1,2,4])
+  .then
