@@ -1,0 +1,1 @@
+function funcionarOuNao(valor, )
