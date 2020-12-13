@@ -46,5 +46,6 @@ async function executar() {
 
 async function getValue() {
   const valor = await executar();
+  console.log(valor);
 }
 
