@@ -19,4 +19,4 @@ async function gerarMegaSena(qtdeNumeros) {
   return numeros
 } 
 
-gerarMegaSena(15);
+gerarMegaSena(8);
