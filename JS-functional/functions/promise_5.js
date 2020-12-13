@@ -14,3 +14,5 @@ function funcionarOuNao(valor, chanceErro) {
     }
   })
 }
+
+func
