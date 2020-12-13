@@ -44,4 +44,6 @@ async function executar() {
   return valor + 3;
 }
 
+function executar
+
 executar().then(console.log);
