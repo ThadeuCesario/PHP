@@ -14,7 +14,7 @@ function gerarMegaSena(qtdeNumeros) {
   const numeros = [];
   for(let _ of Array(qtdeNumeros).fill()) {
     gerarNumerosEntre(1, 60, numeros).then((valor) => {
-      numeros.push()
+      numeros.push(valor)
     });
   }
   
