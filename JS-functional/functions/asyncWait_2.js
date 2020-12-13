@@ -15,7 +15,7 @@ function gerarMegaSena(qtdeNumeros) {
   for(let _ of Array(qtdeNumeros).fill()) {
     gerarNumerosEntre(1, 60, numeros)
       .then((valor) => numeros.push(valor))
-      .ca;
+      .catch(console.log);
   }
   console.log(`Testando os numeros da mega sena ${numeros}`);
   return numeros
