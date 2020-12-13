@@ -5,7 +5,7 @@ function gerarNumerosEntre(min, max, numeroProibidos){
     setTimeout(function(){
       const fator = max - min + 1;
       const aleatorio = parseInt(Math.random() * fator) + min;
-      if(numeroProibidos.includes(aleatorio))
+      if(numeroProibidos.includes(aleatorio)) reject('')
     });
   })
 }
