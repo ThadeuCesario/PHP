@@ -46,4 +46,4 @@ async function executar() {
 
 let finalValue = null;
 executar().then(value => finalValue = value);
-console.log()
+console.log(finalValue);
