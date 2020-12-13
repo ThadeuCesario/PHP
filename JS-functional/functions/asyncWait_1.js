@@ -41,7 +41,7 @@ async function executar() {
   await esperarPor(1500);
   console.log(`Async/Await ${valor + 2}...`);
 
-  return valor 
+  return valor + 3;
 }
 
 
