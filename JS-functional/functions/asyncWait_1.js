@@ -35,8 +35,8 @@ async function executar() {
 function retornarValor() {
   return new Promise(resolve => {
     setTimeout(() => {
-      
-    })
+      resolve()
+    });
   })
 }
 
