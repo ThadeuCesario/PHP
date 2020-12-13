@@ -17,7 +17,7 @@ esperarPor(2000)
   .then(() => console.log('Executando promise 3.....'));
 
 
-function executar() {
+async function executar() {
   console.log('executar');
 }
 
