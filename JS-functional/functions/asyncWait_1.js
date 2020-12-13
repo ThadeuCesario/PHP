@@ -11,3 +11,5 @@ function esperarPor(tempo = 2000) {
     }, tempo);
   });
 }
+
+esperarPor(2000)
