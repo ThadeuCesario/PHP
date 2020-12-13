@@ -44,4 +44,6 @@ async function executar() {
   return valor + 3;
 }
 
-async function getValue
+async function getValue() {
+  
+}
