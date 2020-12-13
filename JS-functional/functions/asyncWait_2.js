@@ -22,7 +22,9 @@ async function gerarMegaSena(qtdeNumeros, tentativas = 1) {
     if(tentativas > 10) {
       throw "Erro gerado";
     }
-    
+    else {
+      return 
+    }
   }
 
 } 
