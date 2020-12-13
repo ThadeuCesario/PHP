@@ -10,7 +10,7 @@ function funcionarOuNao(valor, chanceErro) {
       // Gerar erro
       reject('Ocorreu um erro!');
     } else {
-      resolve();
+      resolve(valor);
     }
   })
 }
