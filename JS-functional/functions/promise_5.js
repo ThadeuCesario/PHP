@@ -15,4 +15,5 @@ function funcionarOuNao(valor, chanceErro) {
   })
 }
 
-funcionarOuNao('Hello world!', 0.5).then(console.log).catch(err => console.log(err));
+funcionarOuNao('Hello world!', 0.5)
+  .then(console.log).catch(err => console.log(err));
