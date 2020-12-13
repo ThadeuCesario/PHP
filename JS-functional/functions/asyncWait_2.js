@@ -20,9 +20,9 @@ async function gerarMegaSena(qtdeNumeros, tentativas = 1) {
     return numeros
   } catch(err) {
     if(tentativas > 10) {
-      
+      throw "Erro gerado";
     }
-    throw "Erro gerado";
+    
   }
 
 } 
