@@ -3,7 +3,7 @@
  * Basicamente o async await força o aguardar a finalização de um determinado trecho de código.
  * Sempre que temos uma função que retorna um Promise, podemos aplicar o await.
  * 
- * Quando
+ * Quando marcamos uma função 
  */
 
 function esperarPor(tempo = 2000) {
