@@ -18,4 +18,4 @@ function funcionarOuNao(valor, chanceErro) {
 funcionarOuNao('Hello world!', 0.5)
   .then(console.log)
   .catch(err => console.log(err))
-  .then(() => console.log(''))
+  .then(() => console.log('EOF'))
