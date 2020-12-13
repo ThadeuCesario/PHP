@@ -1,7 +1,5 @@
 /**
  * 
- * @param {*} valor 
- * @param {*} chanceErro 
  */
 
 function funcionarOuNao(valor, chanceErro) {
