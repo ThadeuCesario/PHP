@@ -13,8 +13,7 @@ function gerarNumerosEntre(min, max, numeroProibidos){
 function gerarMegaSena(qtdeNumeros) {
   const numeros = [];
   for(let _ of Array(qtdeNumeros).fill()) {
-    gerarNumerosEntre(1, 60, numeros).then((valor) => {
-      numeros.push(valor));
+    gerarNumerosEntre(1, 60, numeros).then((valor) => numeros.push(valor));
   }
   
   return numeros
