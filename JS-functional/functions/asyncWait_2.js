@@ -13,7 +13,7 @@ function gerarNumerosEntre(min, max, numeroProibidos){
 async function gerarMegaSena(qtdeNumeros) {
   const numeros = [];
   for(let _ of Array(qtdeNumeros).fill()) {
-    await gerarNumerosEntre(1, 60, numeros)
+    await numeros.push(gerarNumerosEntre(1, 60, numeros)
   }
   console.log(`Testando os numeros da mega sena ${numeros}`);
   return numeros
