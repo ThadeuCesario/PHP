@@ -1,5 +1,5 @@
 /**
- * Para uma promisse 
+ * Para uma promisse p
  */
 
 function funcionarOuNao(valor, chanceErro) {
