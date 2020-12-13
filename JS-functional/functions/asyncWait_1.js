@@ -33,7 +33,7 @@ async function executar() {
   let valor = await retornarValor();
 
   await esperarPor(1500);
-  console.log(Async/Await 1...');
+  console.logAsync/Await 1...');
 
   await esperarPor(1500);
   console.log('Async/Await 2...');
