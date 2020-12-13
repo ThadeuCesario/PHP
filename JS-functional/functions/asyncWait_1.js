@@ -20,7 +20,7 @@ esperarPor(2000)
 
 async function executar() {
   esperarPor(2000);
-  
+  console.log('Async/')
 }
 
 executar();
