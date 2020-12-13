@@ -1,1 +1,1 @@
-function funcionarOuNao(valor, )
+function funcionarOuNao(valor)
