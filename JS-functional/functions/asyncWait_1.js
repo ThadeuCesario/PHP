@@ -25,7 +25,7 @@ async function executar() {
   await esperarPor(1500);
   console.log('Async/Await 2...');
 
-  esperarPor(1500);
+  await esperarPor(1500);
   console.log('Async/Await 3...');
 }
 
