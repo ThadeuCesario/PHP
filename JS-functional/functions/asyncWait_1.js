@@ -49,4 +49,4 @@ async function getValue() {
 }
 
 const finalValue = getValue();
-console.log("va")
+console.log("verificando o valor final", )
