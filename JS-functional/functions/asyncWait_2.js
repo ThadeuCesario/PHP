@@ -10,7 +10,7 @@ function gerarNumerosEntre(min, max, numeroProibidos){
   })
 }
 
-function gerarMegaSena()
+function gerarMegaSena(qtdeNumeros)
 
 gerarNumerosEntre(1, 10, [1,2,4])
   .then(console.log)
