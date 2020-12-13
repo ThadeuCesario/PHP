@@ -1,6 +1,7 @@
 /**
  * Async e Await
  * Basicamente o async await força o aguardar a finalização de um determinado trecho de código.
+ * 
  */
 
 function esperarPor(tempo = 2000) {
