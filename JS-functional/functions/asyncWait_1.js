@@ -44,6 +44,5 @@ async function executar() {
   return valor + 3;
 }
 
-let finalValue = null;
 executar().then(value => finalValue = value);
 console.log(finalValue);
