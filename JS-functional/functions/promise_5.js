@@ -1,1 +1,3 @@
-function funcionarOuNao(valor)
+function funcionarOuNao(valor, chanceErro) {
+  
+}
