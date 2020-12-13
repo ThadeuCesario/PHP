@@ -48,5 +48,3 @@ async function getValue() {
   return await executar();
 }
 
-const finalValue = await getValue();
-console.log("verificando o valor final", finalValue);
