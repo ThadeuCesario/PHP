@@ -18,5 +18,7 @@ esperarPor(2000)
 
 
 function executar() {
-  console.log('')
+  console.log('executar');
 }
+
+executar();
