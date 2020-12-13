@@ -44,4 +44,4 @@ async function executar() {
   return valor + 3;
 }
 
-let 
+let finalValue = null;
