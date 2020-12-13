@@ -34,7 +34,7 @@ async function executar() {
 
   await esperarPor(1500);
   console.log(`Async/Await ${valor}...`);
-
+j,j, j, j, cj, cfjm
   await esperarPor(1500);
   console.log(`Async/Await ${valor + 1}...`);
 
