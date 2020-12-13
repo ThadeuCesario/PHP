@@ -45,4 +45,4 @@ async function executar() {
 }
 
 let finalValue = null;
-executar().then(
+executar().then(v)
