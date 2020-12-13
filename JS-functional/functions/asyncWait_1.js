@@ -36,7 +36,7 @@ function retornarValor() {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(10)
-    });
+    }, 5000);
   })
 }
 
