@@ -1,3 +1,3 @@
-function Produto(nome, ) {
+function Produto(nome, preco) {
 
 }
