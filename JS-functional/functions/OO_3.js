@@ -21,6 +21,9 @@ class Produto {
   }
 }
 
+/**
+ * Utilizando o prototype podemos criar
+ */
 Produto.prototype.log
 
 const p1 = new Produto('Caneta', 1.50);
