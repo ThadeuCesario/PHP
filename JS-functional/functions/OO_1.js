@@ -1,8 +1,8 @@
 function Produto(nome, preco) {
-  this.nome = nome;
+  private this.nome = nome;
   this.preco = preco;
 
-  
+
 }
 
 console.log(typeof Produto); //Function
