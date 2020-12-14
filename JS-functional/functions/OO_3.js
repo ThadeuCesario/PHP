@@ -31,7 +31,9 @@ Produto.prototype.log = function() {
 }
 
 Object.defineProperty(Produto.prototype, 'desc', {
-  
+  get : function() {
+    
+  }
 })
 
 const p1 = new Produto('Caneta', 1.50);
