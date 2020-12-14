@@ -6,7 +6,7 @@ class Produto {
   }
 
   /**
-   * 
+   * Quando colocamos o GET, podemos acessar
    */
    */
   get precoFinal() {
