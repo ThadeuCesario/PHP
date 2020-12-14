@@ -12,7 +12,9 @@ class Produto {
     return this.preco * (1 - this.desc);
   }
 
-  set mudarNome()
+  set mudarNome(newName){
+    
+  }
 }
 
 const p1 = new Produto('Caneta', 1.50);
