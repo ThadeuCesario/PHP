@@ -21,6 +21,8 @@ class Produto {
   }
 }
 
+Produto.prototype.
+
 const p1 = new Produto('Caneta', 1.50);
 const p2 = new Produto('Geladeira', 20000.00);
 
