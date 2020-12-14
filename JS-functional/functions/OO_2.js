@@ -6,7 +6,7 @@ class Produto {
   }
 
   /**
-   * Quando colocamos o GET, podemos acessar
+   * Quando colocamos o GET, podemos acessar essa função como sendo um atributo.
    */
   get precoFinal() {
     return this.preco * (1 - this.desc);
