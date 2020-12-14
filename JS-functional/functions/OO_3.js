@@ -9,7 +9,7 @@ class Produto {
    * Quando colocamos o GET, podemos acessar essa função como sendo um atributo.
    */
   get precoFinal() {
-    return this.preco * (1 - this.desc);
+    return this.preco * (1 - this._desc);
   }
 
   get consultarNome() {
