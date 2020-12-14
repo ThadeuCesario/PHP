@@ -8,7 +8,6 @@ class Produto {
   /**
    * Quando colocamos o GET, podemos acessar
    */
-   */
   get precoFinal() {
     return this.preco * (1 - this.desc);
   }
