@@ -36,7 +36,7 @@ Object.defineProperty(Produto.prototype, 'desc', {
   }
 });
 
-Object.defineProperty(Produto.prototype, 'desc', {
+Object.defineProperty(Produto.prototype, 'descString', {
   get: function() {
     return this._desc;
   }
