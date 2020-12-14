@@ -11,7 +11,7 @@ class Produto {
 }
 
 const p1 = new Produto('Caneta', 1.50);
-const p2 = new Produto('Geladeira', 2000.00);
+const p2 = new Produto('Geladeira', 20000.00);
 
 console.log(p1);
 console.log(`Verificando nome: ${p1.nome}`);
