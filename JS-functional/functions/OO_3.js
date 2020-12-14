@@ -23,6 +23,7 @@ class Produto {
 
 /**
  * Utilizando o prototype podemos criar uma função que não foi definida dentro da função construtora.
+ * Quando colocamos alguma coisa dentro do prototype, 
  */
 Produto.prototype.log = function() {
   return console.log(`Nome: ${this.nome} Preço: R$${this.preco}`);
