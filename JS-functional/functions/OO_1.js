@@ -3,8 +3,6 @@ function Produto(nome, preco) {
   this.preco = preco;
 
   let privadol = 3
-
-
 }
 
 console.log(typeof Produto); //Function
