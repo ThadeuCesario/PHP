@@ -22,7 +22,7 @@ class Produto {
 }
 
 /**
- * Utilizando o prototype podemos criar uma função que não foi atribu
+ * Utilizando o prototype podemos criar uma função que não foi definida dentro da função construtora.
  */
 Produto.prototype.log
 
