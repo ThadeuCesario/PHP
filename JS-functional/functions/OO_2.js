@@ -13,7 +13,7 @@ class Produto {
   }
 
   set mudarNome(newName){
-    
+    this.
   }
 }
 
