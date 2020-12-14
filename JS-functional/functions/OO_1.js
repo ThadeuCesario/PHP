@@ -2,4 +2,4 @@ function Produto(nome, preco) {
 
 }
 
-const p
+const p1 = new Produto('')
