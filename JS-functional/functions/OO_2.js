@@ -6,6 +6,6 @@ class Produto {
   }
 
   precoFinal() {
-    
+    return this.preco * (1 - desc);
   }
 }
