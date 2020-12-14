@@ -57,7 +57,8 @@ p1.log();
 console.log(p2);
 console.log(`Verificando preço: ${p2.preco}`);
 console.log(`Verificando preço com desconto: ${p2.precoFinal}`);
-console.log(p2.desc)
+console.log(p2.desc);
+console.log(p2.descString);
 
 
 /* Class basicamente é um detalhe de sintaxe. Porque no final, o código será convertido para uma função.
