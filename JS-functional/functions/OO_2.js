@@ -36,4 +36,8 @@ console.log(p2);
 console.log(`Verificando preço: ${p2.preco}`);
 console.log(`Verificando preço com desconto: ${p2.precoFinal}`);
 
+
+/*
+ * 
+ */
 console.log(typeof Produto);
