@@ -12,7 +12,7 @@ class Produto {
     return this.preco * (1 - this.desc);
   }
 
-  set n
+  set 
 }
 
 const p1 = new Produto('Caneta', 1.50);
