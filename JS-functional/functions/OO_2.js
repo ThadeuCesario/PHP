@@ -37,7 +37,7 @@ console.log(`Verificando preço: ${p2.preco}`);
 console.log(`Verificando preço com desconto: ${p2.precoFinal}`);
 
 
-/* Class basicamente é um si
+/* Class basicamente é um detalhe de sintaxe. Porque no final, o c
  * 
  */
 console.log(typeof Produto);
