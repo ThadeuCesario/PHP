@@ -3,7 +3,7 @@ function Produto(nome, preco, desc = 0.15) {
   this.preco = preco;
   this.desc = desc;
 
-  this.
+  this.precoFinal = function 
 
   let privado = 3
 }
