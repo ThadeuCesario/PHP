@@ -1,6 +1,6 @@
 class Produto {
   constructor(nome, preco, desc = 0.15) {
-    this._nome = nome;
+    this.nome = nome;
     this.preco = preco;
     this.desc = desc;
   }
