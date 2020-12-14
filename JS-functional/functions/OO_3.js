@@ -25,7 +25,7 @@ class Produto {
  * Utilizando o prototype podemos criar uma função que não foi definida dentro da função construtora.
  */
 Produto.prototype.log = function() {
-  this.
+  console.log()
 }
 
 const p1 = new Produto('Caneta', 1.50);
