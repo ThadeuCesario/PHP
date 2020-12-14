@@ -5,5 +5,5 @@ class Produto {
     this.desc = desc;
   }
 
-  
+  precoFinal = 
 }
