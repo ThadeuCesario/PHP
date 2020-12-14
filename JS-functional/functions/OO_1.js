@@ -2,7 +2,7 @@ function Produto(nome, preco) {
   this.nome = nome;
   this.preco = preco;
 
-  let privadol = 3
+  let privado = 3
 }
 
 console.log(typeof Produto); //Function
