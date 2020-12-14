@@ -37,7 +37,7 @@ console.log(`Verificando preço: ${p2.preco}`);
 console.log(`Verificando preço com desconto: ${p2.precoFinal}`);
 
 
-/*
+/* Class basicamente é um si
  * 
  */
 console.log(typeof Produto);
