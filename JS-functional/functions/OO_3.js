@@ -28,6 +28,8 @@ Produto.prototype.log = function() {
   return console.log(`Nome: ${this.nome} Preço: R$${this.preco}`);
 }
 
+Object
+
 const p1 = new Produto('Caneta', 1.50);
 const p2 = new Produto('Geladeira', 20000.00);
 
