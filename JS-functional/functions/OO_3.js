@@ -35,7 +35,7 @@ Object.defineProperty(Produto.prototype, 'desc', {
     return this._desc;
   },
   set: function(newValue) {
-    if()
+    if(new)
     this._desc = newValue;
   }
 });
