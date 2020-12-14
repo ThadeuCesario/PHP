@@ -13,7 +13,7 @@ class Produto {
   }
 
   get consultarNome() {
-    return this.
+    return this._nome;
   }
 
   set mudarNome(newName){
