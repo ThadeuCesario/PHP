@@ -4,7 +4,7 @@ function Produto(nome, preco, desc = 0.15) {
   this.desc = desc;
 
   this.precoFinal = function () {
-    return 
+    return this.preco * this.
   }
 
   let privado = 3
