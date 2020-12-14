@@ -6,8 +6,6 @@ function Produto(nome, preco, desc = 0.15) {
   this.precoFinal = function () {
     return this.preco * (1 - this.desc);
   }
-
-  let privado = 3
 }
 
 console.log(typeof Produto); //Function
