@@ -31,7 +31,7 @@ Produto.prototype.log = function() {
 }
 
 Object.defineProperty(Produto.prototype, 'desc', {
-  get : function() {
+  get: function() {
     return this._desc;
   }
 })
