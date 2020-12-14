@@ -32,7 +32,7 @@ Produto.prototype.log = function() {
 
 Object.defineProperty(Produto.prototype, 'desc', {
   get: function() {
-    return ``;
+    return this._desc;
   }
 })
 
