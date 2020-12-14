@@ -1,5 +1,5 @@
 class Produto {
-  constructor() {
-    
+  constructor(nome, preco, desc) {
+
   }
 }
