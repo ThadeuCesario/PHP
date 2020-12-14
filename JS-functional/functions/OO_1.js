@@ -3,6 +3,7 @@ function Produto(nome, preco) {
 }
 
 console.log(typeof Produto);
+console.log(typeof Promise);
 console.log(typeof);
 
 const p1 = new Produto('Caneta', 1.50);
