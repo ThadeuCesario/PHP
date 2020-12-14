@@ -4,4 +4,6 @@ class Produto {
     this.preco = preco;
     this.desc = desc;
   }
+
+  
 }
