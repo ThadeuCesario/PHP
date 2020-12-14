@@ -2,6 +2,8 @@ function Produto(nome, preco) {
   this.nome = nome;
   this.preco = preco;
 
+  let privadol = 3
+
 
 }
 
