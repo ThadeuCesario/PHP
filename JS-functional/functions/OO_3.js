@@ -60,6 +60,7 @@ p1.log();
 console.log(p2);
 console.log(`Verificando preço: ${p2.preco}`);
 console.log(`Verificando preço com desconto: ${p2.precoFinal}`);
+p2.desc = 0.99;
 console.log(p2.desc);
 console.log(p2.descString);
 
