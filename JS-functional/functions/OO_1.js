@@ -2,7 +2,7 @@ function Produto(nome, preco) {
   
 }
 
-console.log(typeof Produto);
+console.log(typeof Produto); //Fucntion
 console.log(typeof Promise);
 console.log(typeof Object);
 
