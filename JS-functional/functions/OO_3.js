@@ -37,7 +37,7 @@ console.log(`Verificando preço com desconto: ${p1.precoFinal}`);
 console.log(`Verificando o nome: ${p1.consultarNome}`);
 p1.mudarNome = 'Thadeu';
 console.log(`Verificando o nome atualizado: ${p1.consultarNome}`);
-console.log(p1.log);
+console.log(""p1.log);
 
 
 console.log(p2);
