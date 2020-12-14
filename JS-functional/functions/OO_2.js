@@ -12,6 +12,10 @@ class Produto {
     return this.preco * (1 - this.desc);
   }
 
+  get consultarNome() {
+    return this.
+  }
+
   set mudarNome(newName){
     this._nome = newName;
   }
