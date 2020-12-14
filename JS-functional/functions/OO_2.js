@@ -5,7 +5,7 @@ class Produto {
     this.desc = desc;
   }
 
-  precoFinal() {
+  get precoFinal() {
     return this.preco * (1 - this.desc);
   }
 }
