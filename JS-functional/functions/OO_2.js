@@ -27,7 +27,7 @@ const p2 = new Produto('Geladeira', 20000.00);
 console.log(p1);
 console.log(`Verificando nome: ${p1.nome}`);
 console.log(`Verificando preço com desconto: ${p1.precoFinal}`); 
-console.log(`Verificando o nome: ${p1.consultarNome}`)
+console.log(`Verificando o nome: ${p1.consultarNome}`);
 
 console.log(p2);
 console.log(`Verificando preço: ${p2.preco}`);
