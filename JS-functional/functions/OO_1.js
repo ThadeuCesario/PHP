@@ -16,4 +16,4 @@ console.log(p1);
 console.log(p1.nome);
 
 console.log(p2);
-console.log(p2)
+console.log(p2.preco);
