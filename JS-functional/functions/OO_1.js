@@ -1,5 +1,5 @@
 function Produto(nome, preco) {
-  private this.nome = nome;
+  this.nome = nome;
   this.preco = preco;
 
 
