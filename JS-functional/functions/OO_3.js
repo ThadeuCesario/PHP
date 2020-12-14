@@ -34,7 +34,7 @@ Object.defineProperty(Produto.prototype, 'desc', {
   get: function() {
     return this._desc;
   }
-})
+});
 
 const p1 = new Produto('Caneta', 1.50);
 const p2 = new Produto('Geladeira', 20000.00);
